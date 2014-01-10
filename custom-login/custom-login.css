@@ -1,0 +1,26 @@
+html {
+	background: url(../imagens/bg-vermelho-liso.jpg) center top no-repeat #4D0405 !important; 
+}
+
+h1 a {
+/* Title image (The "WordPress Logo"). Remember to update the height and width your image's dimensions */
+	background:url(../imagens/logo-vox-branco.png) 0 0 no-repeat;
+	width: 160px;
+	height: 100px;
+    margin: 0 0 5px 90px;
+} 
+
+#nav, #backtoblog {
+    text-shadow: none;
+}
+
+.login #nav a, .login #backtoblog a {
+    color: #fff !important;
+    display: block;
+    margin: 0 0 10px 10px;
+    text-decoration: none;
+}
+
+.login #nav a:hover {
+	 text-decoration: underline;
+}
