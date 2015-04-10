@@ -11,7 +11,7 @@
 <?php
 echo '';
 $temp = $wp_query; $wp_query = null; $wp_query = new WP_Query();
-$wp_query->query('post_type=agenda' . '&paged=' . $paged . '&posts_per_page=8&orderby=meta_value&order=DSC&meta_key=ag_data');
+$wp_query->query('post_type=agenda' . '&paged=' . $paged . '&posts_per_page=8&orderby=meta_value&order=DESC&meta_key=ag_data');
 while ( $wp_query->have_posts() ) : $wp_query->the_post(); ?>
 
 <?php $my_meta = get_post_meta($post->ID,'_my_meta',TRUE); ?>

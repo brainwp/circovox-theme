@@ -11,7 +11,7 @@
 <div id="bg-eventos-agenda">
 	
     <!-- Loop -->        
-	<?php $newsArgs = array( 'order' => 'DESC', 'post_type' => 'agenda', 'posts_per_page' => 3);                   
+	<?php $newsArgs = array( 'order' => 'DESC', 'orderby' => 'meta_value', 'meta_key' => 'ag_data', 'post_type' => 'agenda', 'posts_per_page' => 3);                   
     $newsLoop = new WP_Query( $newsArgs );                  
     while ( $newsLoop->have_posts() ) : $newsLoop->the_post(); ?>
     <?php $my_meta = get_post_meta($post->ID,'_my_meta',TRUE); ?>
