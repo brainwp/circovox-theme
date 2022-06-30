@@ -1,4 +1,13 @@
-<?php /* Template name: Contatos */ get_header(); ?>
+<?php /* Template name: Contatos */ get_header(''); ?>
+
+<!--
+<div id="banner_br-contato">
+<embed wmode="transparent"
+src="http://circovox.com.br/wp-content/uploads/234x60_banner_petro.swf"
+quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash"
+width="234" height="60"></embed>
+</div> #banner_br -->
+
 
 <div id="conteudo-contatos">
 	<div id="esquerda-contatos">

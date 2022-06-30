@@ -1,4 +1,6 @@
-<?php /* Template Name: Home */ get_header( 'home' ); ?>
+<?php
+/* Nao esta sendo usado */
+/* Template Name: Home */ get_header( 'home' ); ?>
 		<div id="conteudo-home">
         	<div id="borda-slider">
        	    	<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/imagens/borda-slider-900.png" width="900" height="473" />

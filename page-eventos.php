@@ -48,4 +48,4 @@
 
 </div><!-- #conteudo-eventos -->
 
-<?php get_footer( 'eventos' ); ?>
+<?php get_footer( 'ocirco' ); ?>

@@ -7,16534 +7,3181 @@ Description: Tema para o Circo Vox
 Version: 0.5
 Tags: circo, circo vox, artes circenses
 */
-
 #nav {
 	margin: 0 0 0 170px;
 }
-
 #banner_br {
 	width: 234px;
 	height: 60px;
 }
-
 .claro-escuro {
 	background: url(imagens/bg-espetaculos.jpg) no-repeat top center fixed !important;
 }
-
 h1.entry-title {
     color: #610707;
     font-family: 'Sancreek', Arial, sans-serif;
     font-size: 3.5em;
     margin: 55px 40px 20px;
 }
-
 h2.entry-title {
 	font-family: 'Sancreek', Arial, sans-serif;
     font-size: 2em;
     margin: 55px 40px 20px;
 	color: #610707;
-
 }
-
 h3 {
     color: #610707;
     font-family: 'Sancreek', Arial, sans-serif;
-
     font-size: 2.5em;
-
     margin: 25px 0 10px;
-
 }
-
-
-
-
-
-
-
 /* CSS RETIRADO DO TWENTY TEN  */
-
-
-
-
-
-
-
-
-
-
-
 /* =Widget Areas
-
-
-
 -------------------------------------------------------------- */
-
-
-
-
-
-
-
 .widget-area ul {
-
-
-
 	list-style: none;
-
-
-
 	margin-left: 0;
-
-
-
 }
-
-
-
 .widget-area ul ul {
-
-
-
 	list-style: square;
-
-
-
 	margin-left: 1.3em;
-
-
-
 }
-
-
-
 .widget-area select {
-
-
-
 	max-width: 100%;
-
-
-
 }
-
-
-
 .widget_search #s {/* This keeps the search inputs in line */
-
-
-
 	width: 60%;
-
-
-
 }
-
-
-
 .widget_search label {
-
-
-
 	display: none;
-
-
-
 }
-
-
-
 .widget-container {
-
-
-
 	margin: 0 0 18px 0;
-
-
-
 }
-
-
-
 .widget-title {
-
-
-
 	color: #222;
-
-
-
 	font-weight: bold;
-
-
-
 }
-
-
-
 .widget-area a:link,
-
-
-
 .widget-area a:visited {
-
-
-
 	text-decoration: none;
-
-
-
 }
-
-
-
 .widget-area a:active,
-
-
-
 .widget-area a:hover {
-
-
-
 	text-decoration: underline;
-
-
-
 }
-
-
-
 .widget-area .entry-meta {
-
-
-
 	font-size: 11px;
-
-
-
 }
-
-
-
 #wp_tag_cloud div {
-
-
-
 	line-height: 1.6em;
-
-
-
 }
-
-
-
 #wp-calendar {
-
-
-
 	width: 100%;
-
-
-
 }
-
-
-
 #wp-calendar caption {
-
-
-
 	color: #222;
-
-
-
 	font-size: 14px;
-
-
-
 	font-weight: bold;
-
-
-
 	padding-bottom: 4px;
-
-
-
 	text-align: left;
-
-
-
 }
-
-
-
 #wp-calendar thead {
-
-
-
 	font-size: 11px;
-
-
-
 }
-
-
-
 #wp-calendar thead th {
-
-
-
 }
-
-
-
 #wp-calendar tbody {
-
-
-
 	color: #aaa;
-
-
-
 }
-
-
-
 #wp-calendar tbody td {
-
-
-
 	background: #f5f5f5;
-
-
-
 	border: 1px solid #fff;
-
-
-
 	padding: 3px 0 2px;
-
-
-
 	text-align: center;
-
-
-
 }
-
-
-
 #wp-calendar tbody .pad {
-
-
-
 	background: none;
-
-
-
 }
-
-
-
 #wp-calendar tfoot #next {
-
-
-
 	text-align: right;
-
-
-
 }
-
-
-
 .widget_rss a.rsswidget {
-
-
-
 	color: #000;
-
-
-
 }
-
-
-
 .widget_rss a.rsswidget:hover {
-
-
-
 	color: #ff4b33;
-
-
-
 }
-
-
-
 .widget_rss .widget-title img {
-
-
-
 	width: 11px;
-
-
-
 	height: 11px;
-
-
-
 }
-
-
-
-
-
-
-
 /* =Footer
-
-
-
 -------------------------------------------------------------- */
-
-
-
-
-
-
-
 #colophon {
-
-
-
 	border-top: 4px solid #000;
-
-
-
 	margin-top: -4px;
-
-
-
 	overflow: hidden;
-
-
-
 	padding: 18px 0;
-
-
-
 }
-
-
-
-
-
 img#wpstats {
-
     display: none;
-
     margin: 0 auto 10px;
-
 }
-
-
-
-
-
-
-
-
-
-
-
 /* =Navigation
-
-
-
 -------------------------------------------------------------- */
-
-
-
-
-
-
-
 .navigation {
-
-
-
 	color: #1E0400;
-
-
-
 	font-size: 12px;
-
-
-
 	line-height: 18px;
-
-
-
 	overflow: hidden;
-
-
-
 }
-
-
-
 .navigation a:link,
-
-
-
 .navigation a:visited {
-
-
-
 	color: #1E0400;
-
-
-
 	text-decoration: none;
-
-
-
 }
-
-
-
 .navigation a:active,
-
-
-
 .navigation a:hover {
-
-
-
 	color: #ff4b33;
-
-
-
 }
-
-
-
 .nav-previous {
-
-
-
 	float: left;
-
-
-
 	width: 50%;
-
-
-
 }
-
-
-
 .nav-next {
-
-
-
 	float: right;
-
-
-
 	text-align: right;
-
-
-
 	width: 50%;
-
-
-
 }
-
-
-
 #nav-above {
-
-
-
 	margin: 0 0 18px 0;
-
-
-
 }
-
-
-
 #nav-above {
-
-
-
 	display: none;
-
-
-
 }
-
-
-
 .paged #nav-above,
-
-
-
 .single #nav-above {
-
-
-
 	display: block;
-
-
-
 }
-
-
-
 #nav-below {
-
-
-
     font-size: 1.2em;
-
-
-
     margin: 25px;
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
 /* =Comments
-
-
-
 -------------------------------------------------------------- */
-
-
-
 #comments {
-
-
-
 	clear: both;
-
-
-
 }
-
-
-
 #comments .navigation {
-
-
-
 	padding: 0 0 18px 0;
-
-
-
 }
-
-
-
 h3#comments-title,
-
-
-
 h3#reply-title {
-
-
-
 	color: #000;
-
-
-
 	font-size: 20px;
-
-
-
 	font-weight: bold;
-
-
-
 	margin-bottom: 0;
-
-
-
 }
-
-
-
 h3#comments-title {
-
-
-
 	padding: 24px 0;
-
-
-
 }
-
-
-
 .commentlist {
-
-
-
 	list-style: none;
-
-
-
 	margin: 0;
-
-
-
 }
-
-
-
 .commentlist li.comment {
-
-
-
 	border-bottom: 1px solid #e7e7e7;
-
-
-
 	line-height: 24px;
-
-
-
 	margin: 0 0 24px 0;
-
-
-
 	padding: 0 0 0 56px;
-
-
-
 	position: relative;
-
-
-
 }
-
-
-
 .commentlist li:last-child {
-
-
-
 	border-bottom: none;
-
-
-
 	margin-bottom: 0;
-
-
-
 }
-
-
-
 #comments .comment-body ul,
-
-
-
 #comments .comment-body ol {
-
-
-
 	margin-bottom: 18px;
-
-
-
 }
-
-
-
 #comments .comment-body p:last-child {
-
-
-
 	margin-bottom: 6px;
-
-
-
 }
-
-
-
 #comments .comment-body blockquote p:last-child {
-
-
-
 	margin-bottom: 24px;
-
-
-
 }
-
-
-
 .commentlist ol {
-
-
-
 	list-style: decimal;
-
-
-
 }
-
-
-
 .commentlist .avatar {
-
-
-
 	position: absolute;
-
-
-
 	top: 4px;
-
-
-
 	left: 0;
-
-
-
 }
-
-
-
 .comment-author {
-
-
-
 }
-
-
-
 .comment-author cite {
-
-
-
 	color: #000;
-
-
-
 	font-style: normal;
-
-
-
 	font-weight: bold;
-
-
-
 }
-
-
-
 .comment-author .says {
-
-
-
 	font-style: italic;
-
-
-
 }
-
-
-
 .comment-meta {
-
-
-
 	font-size: 12px;
-
-
-
 	margin: 0 0 18px 0;
-
-
-
 }
-
-
-
 .comment-meta a:link,
-
-
-
 .comment-meta a:visited {
-
-
-
 	color: #1E0400;
-
-
-
 	text-decoration: none;
-
-
-
 }
-
-
-
 .comment-meta a:active,
-
-
-
 .comment-meta a:hover {
-
-
-
 	color: #ff4b33;
-
-
-
 }
-
-
-
 .commentlist .even {
-
-
-
 }
-
-
-
 .commentlist .bypostauthor {
-
-
-
 }
-
-
-
 .reply {
-
-
-
 	font-size: 12px;
-
-
-
 	padding: 0 0 24px 0;
-
-
-
 }
-
-
-
 .reply a,
-
-
-
 a.comment-edit-link {
-
-
-
 	color: #1E0400;
-
-
-
 }
-
-
-
 .reply a:hover,
-
-
-
 a.comment-edit-link:hover {
-
-
-
 	color: #ff4b33;
-
-
-
 }
-
-
-
 .commentlist .children {
-
-
-
 	list-style: none;
-
-
-
 	margin: 0;
-
-
-
 }
-
-
-
 .commentlist .children li {
-
-
-
 	border: none;
-
-
-
 	margin: 0;
-
-
-
 }
-
-
-
 .nopassword,
-
-
-
 .nocomments {
-
-
-
 	display: none;
-
-
-
 }
-
-
-
 #comments .pingback {
-
-
-
 	border-bottom: 1px solid #e7e7e7;
-
-
-
 	margin-bottom: 18px;
-
-
-
 	padding-bottom: 18px;
-
-
-
 }
-
-
-
 .commentlist li.comment+li.pingback {
-
-
-
 	margin-top: -6px;
-
-
-
 }
-
-
-
 #comments .pingback p {
-
-
-
 	color: #1E0400;
-
-
-
 	display: block;
-
-
-
 	font-size: 12px;
-
-
-
 	line-height: 18px;
-
-
-
 	margin: 0;
-
-
-
 }
-
-
-
 #comments .pingback .url {
-
-
-
 	font-size: 13px;
-
-
-
 	font-style: italic;
-
-
-
 }
-
-
-
-
-
-
-
 /* Comments form */
-
-
-
 input[type=submit] {
-
-
-
 	color: #333;
-
-
-
 }
-
-
-
 #respond {
-
-
-
     background: none repeat scroll 0 0 #E4C978;
-
-
-
     margin: 24px 0 20px;
-
-
-
     overflow: hidden;
-
-
-
     padding: 5px 20px;
-
-
-
     position: relative;
-
-
-
     width: 540px;
-
-
-
 }
-
-
-
 #respond p {
-
-
-
 	margin: 0;
-
-
-
 }
-
-
-
 #respond .comment-notes {
-
-
-
 	margin-bottom: 1em;
-
-
-
 }
-
-
-
 .form-allowed-tags {
-
-
-
 	line-height: 1em;
-
-
-
 }
-
-
-
 .children #respond {
-
-
-
 	margin: 0 48px 0 0;
-
-
-
 }
-
-
-
 h3#reply-title {
-
-
-
 	margin: 18px 0;
-
-
-
 }
-
-
-
 #comments-list #respond {
-
-
-
 	margin: 0 0 18px 0;
-
-
-
 }
-
-
-
 #comments-list ul #respond {
-
-
-
 	margin: 0;
-
-
-
 }
-
-
-
 #cancel-comment-reply-link {
-
-
-
 	font-size: 12px;
-
-
-
 	font-weight: normal;
-
-
-
 	line-height: 18px;
-
-
-
 }
-
-
-
 #respond .required {
-
-
-
 	color: #ff4b33;
-
-
-
 	font-weight: bold;
-
-
-
 }
-
-
-
 #respond label {
-
-
-
 	color: #1E0400;
-
-
-
 	font-size: 12px;
-
-
-
 }
-
-
-
 #respond input {
-
-
-
 	margin: 0 0 9px;
-
-
-
 	width: 98%;
-
-
-
 }
-
-
-
 #respond textarea {
-
-
-
 	width: 98%;
-
-
-
 }
-
-
-
 #respond .form-allowed-tags {
-
-
-
 	color: #1E0400;
-
-
-
 	font-size: 12px;
-
-
-
 	line-height: 18px;
-
-
-
 }
-
-
-
 #respond .form-allowed-tags code {
-
-
-
 	font-size: 11px;
-
-
-
 }
-
-
-
 #respond .form-submit {
-
-
-
 	margin: 12px 0;
-
-
-
 }
-
-
-
 #respond .form-submit input {
-
-
-
 	font-size: 14px;
-
-
-
 	width: auto;
-
-
-
 }
-
-
-
-
-
-
-
 /* =Images
-
-
-
 -------------------------------------------------------------- */
-
-
-
-
-
-
-
 /*
-
-
-
 Resize images to fit the main content area.
-
-
-
 - Applies only to images uploaded via WordPress by targeting size-* classes.
-
-
-
 - Other images will be left alone. Use "size-auto" class to apply to other images.
-
-
-
 */
-
-
-
 img.size-auto,
-
-
-
 img.size-full,
-
-
-
 img.size-large,
-
-
-
 img.size-medium,
-
-
-
 .attachment img {
-
-
-
 	max-width: 100%; /* When images are too wide for containing element, force them to fit. */
-
-
-
 	height: auto; /* Override height to match resized width for correct aspect ratio. */
-
-
-
 }
-
-
-
 .alignleft,
-
-
-
 img.alignleft {
-
-
-
 	display: inline;
-
-
-
 	float: left;
-
-
-
 	margin-right: 24px;
-
-
-
 	margin-top: 4px;
-
-
-
 }
-
-
-
 .alignright,
-
-
-
 img.alignright {
-
-
-
 	display: inline;
-
-
-
 	float: right;
-
-
-
 	margin-left: 24px;
-
-
-
 	margin-top: 4px;
-
-
-
 }
-
-
-
 .aligncenter,
-
-
-
 img.aligncenter {
-
-
-
 	clear: both;
-
-
-
 	display: block;
-
-
-
 	margin-left: auto;
-
-
-
 	margin-right: auto;
-
-
-
 }
-
-
-
 img.alignleft,
-
-
-
 img.alignright,
-
-
-
 img.aligncenter {
-
-
-
 	margin-bottom: 12px;
-
-
-
 }
-
-
-
 .wp-caption {
-
-
-
 	background: #f1f1f1;
-
-
-
 	line-height: 18px;
-
-
-
 	margin-bottom: 20px;
-
-
-
 	max-width: 632px !important; /* prevent too-wide images from breaking layout */
-
-
-
 	padding: 4px;
-
-
-
 	text-align: center;
-
-
-
 }
-
-
-
 .wp-caption img {
-
-
-
 	margin: 5px 5px 0;
-
-
-
 }
-
-
-
 .wp-caption p.wp-caption-text {
-
-
-
 	color: #1E0400;
-
-
-
 	font-size: 12px;
-
-
-
 	margin: 5px;
-
-
-
 }
-
-
-
 .wp-smiley {
-
-
-
 	margin: 0;
-
-
-
 }
-
-
-
 .gallery {
-
-
-
 	margin: 0 auto 18px;
-
-
-
 }
-
-
-
 .gallery .gallery-item {
-
-
-
 	float: left;
-
-
-
 	margin-top: 0;
-
-
-
 	text-align: center;
-
-
-
 	width: 33%;
-
-
-
 }
-
-
-
 .gallery-columns-2 .gallery-item {
-
-
-
 	width: 50%;
-
-
-
 }
-
-
-
 .gallery-columns-4 .gallery-item {
-
-
-
 	width: 25%;
-
-
-
 }
-
-
-
 .gallery img {
-
-
-
 	border: 2px solid #cfcfcf;
-
-
-
 }
-
-
-
 .gallery-columns-2 .attachment-medium {
-
-
-
 	max-width: 92%;
-
-
-
 	height: auto;
-
-
-
 }
-
-
-
 .gallery-columns-4 .attachment-thumbnail {
-
-
-
 	max-width: 84%;
-
-
-
 	height: auto;
-
-
-
 }
-
-
-
 .gallery .gallery-caption {
-
-
-
 	color: #1E0400;
-
-
-
 	font-size: 12px;
-
-
-
 	margin: 0 0 12px;
-
-
-
 }
-
-
-
 .gallery dl {
-
-
-
 	margin: 0;
-
-
-
 }
-
-
-
 .gallery img {
-
-
-
 	border: 5px solid #f1f1f1;
-
-
-
 }
-
-
-
 .gallery br+br {
-
-
-
 	display: none;
-
-
-
 }
-
-
-
 #content .attachment img {/* single attachment images should be centered */
-
-
-
 	display: block;
-
-
-
 	margin: 0 auto;
-
-
-
 	
-
-
-
 	}
-
-
-
-
-
-
-
 /* =Gallery listing
-
-
-
 -------------------------------------------------------------- */
-
-
-
-
-
-
-
 .format-gallery .size-thumbnail img,
-
-
-
 .category-gallery .size-thumbnail img {
-
-
-
 	border: 10px solid #f1f1f1;
-
-
-
 	margin-bottom: 0;
-
-
-
 }
-
-
-
 .format-gallery .gallery-thumb,
-
-
-
 .category-gallery .gallery-thumb {
-
-
-
 	float: left;
-
-
-
 	margin-right: 20px;
-
-
-
 	margin-top: -4px;
-
-
-
 }
-
-
-
 .home #content .format-gallery .entry-utility,
-
-
-
 .home #content .category-gallery .entry-utility {
-
-
-
 	padding-top: 4px;
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
 /* =Mobile Safari ( iPad, iPhone and iPod Touch )
-
-
-
 -------------------------------------------------------------- */
-
-
-
-
-
-
-
 pre {
-
-
-
 	-webkit-text-size-adjust: 140%;
-
-
-
 }
-
-
-
 code {
-
-
-
 	-webkit-text-size-adjust: 160%;
-
-
-
 }
-
-
-
 #access,
-
-
-
 .entry-meta,
-
-
-
 .entry-utility,
-
-
-
 .navigation,
-
-
-
 .widget-area {
-
-
-
 	-webkit-text-size-adjust: 120%;
-
-
-
 }
-
-
-
 #site-description {
-
-
-
 	-webkit-text-size-adjust: none;
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
 /* =Print Style
-
-
-
 -------------------------------------------------------------- */
-
-
-
-
-
-
-
 @media print {
-
-
-
 	body {
-
-
-
 		background: none !important;
-
-
-
 	}
-
-
-
 	#wrapper {
-
-
-
 		clear: both !important;
-
-
-
 		display: block !important;
-
-
-
 		float: none !important;
-
-
-
 		position: relative !important;
-
-
-
 	}
-
-
-
 	#header {
-
-
-
 		border-bottom: 2pt solid #000;
-
-
-
 		padding-bottom: 18pt;
-
-
-
 	}
-
-
-
 	#colophon {
-
-
-
 		border-top: 2pt solid #000;
-
-
-
 	}
-
-
-
 	#site-title,
-
-
-
 	#site-description {
-
-
-
 		float: none;
-
-
-
 		line-height: 1.4em;
-
-
-
 		margin: 0;
-
-
-
 		padding: 0;
-
-
-
 	}
-
-
-
 	#site-title {
-
-
-
 		font-size: 13pt;
-
-
-
 	}
-
-
-
 	.entry-content {
-
-
-
 		font-size: 14pt;
-
-
-
 		line-height: 1.6em;
-
-
-
 	}
-
-
-
 	.entry-title {
-
-
-
 		font-size: 21pt;
-
-
-
 	}
-
-
-
 	#access,
-
-
-
 	#branding img,
-
-
-
 	#respond,
-
-
-
 	.comment-edit-link,
-
-
-
 	.edit-link,
-
-
-
 	.navigation,
-
-
-
 	.page-link,
-
-
-
 	.widget-area {
-
-
-
 		display: none !important;
-
-
-
 	}
-
-
-
 	#container,
-
-
-
 	#header,
-
-
-
 	#footer {
-
-
-
 		margin: 0;
-
-
-
 		width: 100%;
-
-
-
 	}
-
-
-
 	#content,
-
-
-
 	.one-column #content {
-
-
-
 		margin: 24pt 0 0;
-
-
-
 		width: 100%;
-
-
-
 	}
-
-
-
 	.wp-caption p {
-
-
-
 		font-size: 11pt;
-
-
-
 	}
-
-
-
 	#site-info,
-
-
-
 	#site-generator {
-
-
-
 		float: none;
-
-
-
 		width: auto;
-
-
-
 	}
-
-
-
 	#colophon {
-
-
-
 		width: auto;
-
-
-
 	}
-
-
-
 	img#wpstats {
-
-
-
 		display: none;
-
-
-
 	}
-
-
-
 	#site-generator a {
-
-
-
 		margin: 0;
-
-
-
 		padding: 0;
-
-
-
 	}
-
-
-
 	#entry-author-info {
-
-
-
 		border: 1px solid #e7e7e7;
-
-
-
 	}
-
-
-
 	.home .sticky {
-
-
-
 		border: none;
-
-
-
 	}
-
-
-
 }
-
-
-
-
-
-
-
 /* =ESTILOS DO TEMA CIRCO VOX
-
-
-
 -------------------------------------------------------------- */
-
-
-
-
-
-
-
 body  {
-
 	    background: url("imagens/bg-home.jpg") no-repeat fixed center 0 #4D0405;
-
 		margin: 0 auto;
-
 		text-align: center;
-
 }
-
-
-
 #main {
-
     margin: 0 auto;
-
     width: 1000px;
-
     text-align: left;
-
 }
-
-
-
 /* VIP */
-
 .page-vip {
-
 	background: url(imagens/bg-vip.jpg) no-repeat top center #4d0405 fixed;
-
 }
-
-
-
 #top-area-vip  {
-
     background: url("imagens/top-area-vip.png") no-repeat scroll 0 0 transparent;
-
     height: 115px;
-
     margin: -5px 0 0 150px;
-
-
-
     position: absolute;
-
-
-
     width: 250px;
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* =HOME
-
-
-
 -------------------------------------------------------------- */
-
-
-
-
-
-
-
 .home-page {
-
 	    background: url("imagens/bg-home.jpg") no-repeat fixed center 0 #4D0405 !important;
-
 	    
-
 }
-
-
-
-
-
-
-
 #lampadas-home {
-
-
-
 	width: 1033px;
-
-
-
 	height: 420px;
-
-
-
 	background: url(imagens/lampadas.png);
-
-
-
 	position: absolute;
-
-
-
 	right: 0;
-
-
-
 	z-index: -9; /* Hack para manter as l�mpadas atr�s do menu */
-
-
-
 }
-
-
-
-
-
 #segura{
-
 	width: 1000px;
-
 	margin: 0 auto;
-
-
-
 }
-
-
-
 #header-home {
-
-	width: 735px;
-
+	width: 785px;
 	height: 130px;
-
 	margin: 0 auto 10px auto;
-
 	padding: 40px 0 0 0;
-
 }
-
-
-
-
-
-
-
 #logo-header-home {
-
 	background: url("imagens/logo-vox-branco.png") no-repeat scroll 0 center transparent;
-
 	width: 160px;
-
 	height: 100px;
-
 	float: left;
-
 }
-
-
-
-
-
-
-
 #logo-header-home:hover {
-
-
-
 	background: url("imagens/logo-vox-branco.png") no-repeat scroll -165px 0 transparent;
-
-
-
 }
-
-
-
-
-
-
-
 .a-logo {
-
-
-
 	width: 160px;
-
-
-
 	height: 100px;
-
-
-
 	position: absolute;
-
-
-
+	margin-left: -35px;
 }
-
-
-
-
-
-
-
 #conteudo-home {
-
-
-
     margin-left: 105px;
-
-
-
     min-height: 400px;
-
-
-
     width: 800px;
-
-
-
 	
-
-
-
 }
-
-
-
-
-
-
-
 #borda-slider {
-
-
-
 	width: 800px;
-
-
-
 	height: 420px;
-
-
-
 }
-
-
-
-
-
-
-
 #borda-slider a {
-
-
-
 	margin: 0;
-
-
-
 	padding: 0;
-
-
-
 	border: 0;
-
-
-
 }
-
-
-
-
-
-
-
 #brd-esquerda {
-
-
-
 	background: url(imagens/borda-esquerda.png) no-repeat;
-
-
-
 	float: left;
-
-
-
 	width: 49px;
-
-
-
 	height: 420px;
-
-
-
 }
-
-
-
-
-
-
-
 #brd-centro {
-
-
-
 	float: left;
-
-
-
 	width: 700px;
-
-
-
 	height: 420px;
-
-
-
 }
-
-
-
-
-
-
-
 #brd-superior {
-
-
-
 	background: url(imagens/borda-superior.png) no-repeat;
-
-
-
 	width:700px;
-
-
-
 	height: 27px;
-
-
-
 }
-
-
-
-
-
-
-
 #brd-slider {
-
-
-
 	background: none repeat scroll 0 0 #000000;
-
-
-
 	width: 700px;
-
-
-
 	height: 347px;
-
-
-
 }
-
-
-
-
-
-
-
 #brd-inferior {
-
-
-
 	background: url(imagens/borda-inferior.png) no-repeat;
-
-
-
 	width: 700px;
-
-
-
 	height: 46px;
-
-
-
 }
-
-
-
-
-
-
-
 #brd-direita {
-
-
-
 	background: url(imagens/borda-direita.png) no-repeat;
-
-
-
 	float: left;
-
-
-
 	width: 51px;
-
-
-
 	height: 420px;
-
-
-
 }
-
-
-
-
-
-
-
 #cs-navigation-wpcontent_slider {
-
-
-
 	display: block !important;
-
-
-
 }
-
-
-
-
-
-
-
 #lightbox-overlay-text-about {
-
-
-
 	display: none;
-
-
-
 }
 
 
+#tel-email {
+	width: 1000px;
+	height: 65px;
+	float: left;
+	margin-bottom:10px;
+}
 
+#tel{
+    color: #FFFFFF;
+    font-family: Verdana,Geneva,sans-serif;
+    font-size: 10px;
+	float:left;
+	margin: 0 20px 0 285px;
+    padding-top: 12px;
+}
 
-
-
-
-
+#email-home{
+    color: #FFFFFF;
+    font-family: Verdana,Geneva,sans-serif;
+    font-size: 10px;
+	float: left;
+	margin-left: 18px;
+	padding-top: 17px;
+}
+#email-home a{
+	color:#fff;
+}
+#footer-home {	
+	width: 900px;
+	height: 70px;
+	margin:0 auto;
+	float: left;
+}
 
 
 
 /* =O CIRCO
-
-
-
 -------------------------------------------------------------- */
-
-
-
-
-
-
-
-
-
-
-
 .page-template-page-ocirco-php {
-
-
-
 	background: url(imagens/bg-vermelho-liso.jpg) no-repeat top center #4d0405 fixed;
-
-
-
 }
-
-
-
-
-
-
-
 #access-ocirco {
-
-
-
 	float: right;
-
-
-
 	height: 30px;
-
-
-
 	margin: 75px 0 0 0;
-
-
-
 }
-
-
-
-
-
-
-
 #access-ocirco li {
-
-
-
 	display: inline;
-
-
-
 	margin: 0 10px;
-
-
-
 }
-
-
-
-
-
-
-
 #access-ocirco ul {
-
-
-
 	margin: 4px 0 0 0;
-
-
-
 }
-
-
-
-
-
-
-
 #access-ocirco a {
-
-
-
 	color: #f1edcd;
-
-
-
 	font-family: Arial, Helvetica, sans-serif;
-
-
-
 	text-transform: uppercase;
-
-
-
 	font-size: 13px;
-
-
-
 	text-decoration: none;
-
-
-
 }
-
-
-
-
-
-
-
 #access-ocirco a:hover {
-
-
-
 	color: #FFF;
-
-
-
 	text-decoration: underline;
-
-
-
 }
-
-
-
-
-
-
-
 #access-ocirco .menu-header {
-
-
-
 	float: left;
-
-
-
 }
-
-
-
-
-
-
-
 #header-ocirco {
-
-
-
 	width: 960px;
-
-
-
 	margin: 0 auto 0 auto;
-
-
-
 }
-
-
-
-
-
-
-
 #superior-header-ocirco {
-
-
-
     height: 150px;
-
-
-
     margin: 40px 0 0;
-
-
-
     width: 960px;
-
-
-
 }
-
-
-
-
-
-
-
 #logo-header-ocirco {
-
-
-
 	background: url("imagens/logo-vox-branco.png") no-repeat scroll 0 center transparent;
-
-
-
 	width: 160px;
-
-
-
 	height: 100px;
-
-
-
 	float: left;
-
-
-
 }
-
-
-
-
-
-
-
 #logo-header-ocirco:hover {
-
-
-
 	background: url("imagens/logo-vox-branco.png") no-repeat scroll -165px 0 transparent;
-
-
-
 }
-
-
-
-
-
-
-
-.a-logo {
-
-
-
-	width: 160px;
-
-
-
-	height: 100px;
-
-
-
-	position: absolute;
-
-
-
-}
-
-
-
-
-
 
 
 #img-header-ocirco {
-
-
-
     background: url("imagens/panorama_circo.jpg") no-repeat scroll center top #080202;
-
-
-
     height: 282px;
-
-
-
     margin: 140px 0 0;
-
-
-
     position: absolute;
-
-
-
     width: 100%;
-
-
-
     z-index: -9998;	
-
-
-
 }
-
-
-
-
-
-
-
 #img-personas-ocirco {
-
-
-
 	background: url(imagens/bg-personagens.jpg) no-repeat center bottom;
-
-
-
 	width: 960px;
-
-
-
 	height: 257px;
-
-
-
 	margin: 60px auto 0 auto;
-
-
-
 }
-
-
-
-
-
-
-
 #img-personas-ocirco img {
-
-
-
 	margin: 0 0 0 60px;
-
-
-
 }
-
-
-
-
-
-
-
 #conteudo-ocirco {
-
-
-
 	background: url(imagens/bg-ocirco.jpg) repeat-y #f7f0c3;
-
-
-
 	width: 960px;
-
-
-
 	margin: 0 auto;
-
-
-
 	overflow: hidden;
-
-
-
 	color: #1e0400;
-
-
-
 	font-family: Verdana, Geneva, sans-serif;
-
-
-
 	font-size: 12px;
-
-
-
 	line-height: 20px;
-
-
-
 }
-
-
-
-
-
-
-
 #conteudo-ocirco p {
-
-
-
 	color: #1e0400;
-
-
-
 	margin: 3px 0 10px 3px;
-
-
-
 }
-
-
-
-
-
-
-
 #esquerda-ocirco {
-
-
-
 	background: url(imagens/bg-conteudo-ocirco.jpg) no-repeat #f7f0c3;
-
-
-
 	float: left;
-
-
-
 	width: 640px;
-
-
-
 }
-
-
-
-
-
-
-
 #titulo-ocirco {
-
-
-
 	background: url(imagens/titulo-ocirco.png);
-
-
-
 	width: 229px;
-
-
-
 	height: 75px;
-
-
-
 	margin: 0 0 20px 30px;
-
-
-
 }
-
-
-
-
-
-
-
 #post-ocirco {
-
-
-
 	margin: 10px 0 20px 30px;
-
-
-
 	width: 595px;
-
-
-
 }
-
-
-
-
-
-
-
 .saibamais-post-ocirco {
-
-
-
 }
-
-
-
-
-
-
-
 #rodape-conteudo-ocirco {
-
-
-
 	background: url(imagens/sombra-rodape-conteudo.png) no-repeat scroll 0 0 transparent;
-
-
-
 	width: 640px;
-
-
-
 	padding-top: 35px;
-
-
-
 	margin-top: 25%;
-
-
-
+	float: left;
 }
-
-
-
-
-
-
-
 #linha-top-rodape-conteudo-ocirco {
-
-
-
     background: url("imagens/linha.png") no-repeat scroll 0 0 transparent;
-
-
-
     height: 13px;
-
-
-
     margin: 10px 0 20px 40px;
-
-
-
     width: 549px;
-
-
-
 }
-
-
-
-
-
-
-
 /*	BOT?ES CIRCO */
-
-
-
-
-
-
-
 #superior-rodape-conteudo-ocirco {
-
-
-
 	height: 110px;
-
-
-
 	margin: 0 auto;
-
-
-
 }
-
-
-
-
-
-
-
 #superior-rodape-conteudo-ocirco img {
-
-
-
 	border: 0;
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
 .btn-comochegar {
-
-
-
     background: url("imagens/btn-circo-comochegar.jpg") repeat-y scroll 0 12px transparent;
-
-
-
     float: left;
-
-
-
     height: 170px;
-
-
-
     margin: 0;
-
-
-
     width: 170px;
-
-
-
 	opacity:1;
-
-
-
 	-moz-opacity:1;
-
-
-
 	filter: alpha(opacity=100);
-
-
-
 	
-
-
-
 }
-
-
-
-
-
-
-
 .btn-comochegar:hover {
-
-
-
 	opacity: 0.65;
-
-
-
 	-moz-opacity: 0.65;
-
-
-
 	filter: alpha(opacity=65);
-
-
-
 }
-
-
-
-
-
-
-
 .a-btn-comochegar {
-
-
-
 color: #AAAAAA;
-
-
-
     font-size: 1.2em;
-
-
-
     height: 130px;
-
-
-
     line-height: 1.6em;
-
-
-
     margin: 0;
-
-
-
     padding: 20px;
-
-
-
     position: absolute;
-
-
-
     text-align: center;
-
-
-
     text-decoration: none;
-
-
-
     width: 130px;
-
-
-
 	}
-
-
-
-
-
-
-
 .a-btn-comochegar:hover {
-
-
-
     color: #000;
-
-
-
 	}
-
-
-
-
-
-
-
 .btn-equipe {
-
-
-
 	background: url(imagens/btn-circo-equipe.jpg) repeat-y scroll 0 12px transparent;
-
-
-
 	float: left;
-
-
-
 	height: 170px;
-
-
-
 	width: 155px;
-
-
-
 	margin: 0;
-
-
-
 	border-left: 1px solid #aaa;
-
-
-
 	opacity:1;
-
-
-
 	-moz-opacity:1;
-
-
-
 	filter: alpha(opacity=100);
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
 .btn-equipe:hover {
-
-
-
 	opacity:0.65;
-
-
-
 	-moz-opacity: 0.65;
-
-
-
 	filter: alpha(opacity=65);
-
-
-
 }
-
-
-
-
-
-
-
 .a-btn-equipe {
-
-
-
 	color: #AAAAAA;
-
-
-
     font-size: 1.2em;
-
-
-
     height: 130px;
-
-
-
     line-height: 1.6em;
-
-
-
     margin: 0;
-
-
-
     padding: 20px;
-
-
-
     position: absolute;
-
-
-
     text-align: center;
-
-
-
     text-decoration: none;
-
-
-
     width: 115px;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
 .a-btn-equipe:hover {
-
-
-
     color: #000;
-
-
-
 	}
-
-
-
-
-
-
-
 .btn-lojinha {
-
-
-
 	background: url(imagens/btn-circo-lojinha.jpg) repeat-y scroll 0 12px transparent;
-
-
-
 	float: left;
-
-
-
 	height: 170px;
-
-
-
 	width: 155px;
-
-
-
 	margin: 0;
-
-
-
 	border-left: 1px solid #aaa;
-
-
-
 	opacity:1;
-
-
-
 	-moz-opacity:1;
-
-
-
 	filter: alpha(opacity=100);
-
-
-
 	
-
-
-
 }
-
-
-
-
-
-
-
 .btn-lojinha:hover {
-
-
-
 	opacity:0.65;
-
-
-
 	-moz-opacity: 0.65;
-
-
-
 	filter: alpha(opacity=65);
-
-
-
 }
-
-
-
-
-
-
-
 .a-btn-lojinha {
-
-
-
 	color: #AAAAAA;
-
-
-
     font-size: 1.2em;
-
-
-
     height: 130px;
-
-
-
     line-height: 1.6em;
-
-
-
     margin: 0;
-
-
-
     padding: 20px;
-
-
-
     position: absolute;
-
-
-
     text-align: center;
-
-
-
     text-decoration: none;
-
-
-
     width: 115px;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
 .a-btn-lojinha:hover {
-
-
-
     color: #000;
-
-
-
 	}
-
-
-
-
-
-
-
 .btn-blog {
-
-
-
 	background: url(imagens/btn-circo-blog.jpg) repeat-y scroll 0 12px transparent;
-
-
-
 	float: left;
-
-
-
 	height: 170px;
-
-
-
 	width: 155px;
-
-
-
 	margin: 0;
-
-
-
 	border-left: 1px solid #aaa;
-
-
-
 	opacity:1;
-
-
-
 	-moz-opacity:1;
-
-
-
 	filter: alpha(opacity=100);
-
-
-
 }
-
-
-
-
-
-
-
 .btn-blog:hover {
-
-
-
 	opacity:0.65;
-
-
-
 	-moz-opacity: 0.65;
-
-
-
 	filter: alpha(opacity=65);
-
-
-
 	
-
-
-
 }
-
-
-
-
-
-
-
 .a-btn-blog {
-
-
-
 	color: #AAAAAA;
-
-
-
     font-size: 1.2em;
-
-
-
     height: 130px;
-
-
-
     line-height: 1.6em;
-
-
-
     margin: 0;
-
-
-
     padding: 20px;
-
-
-
     position: absolute;
-
-
-
     text-align: center;
-
-
-
     text-decoration: none;
-
-
-
     width: 115px;
-
-
-
 }
-
-
-
-
-
-
-
 .a-btn-blog:hover {
-
-
-
     color: #000;
-
-
-
 	}
-
-
-
 	
-
-
-
 #blog-rodape-conteudo-ocirco {
-
-
-
 	width: 600px;
-
-
-
 	height: 200px;
-
-
-
 	background: #CFCFCF;
-
-
-
 	margin: 10px auto;
-
-
-
 	display: none;
-
-
-
 }
-
-
-
-
-
-
-
 #esquerda-blog-rodape-conteudo-ocirco {
-
-
-
 }
-
-
-
-
-
-
-
 #direita-blog-rodape-conteudo-ocirco {
-
-
-
 }
-
-
-
-
-
-
-
 h3 .titulo-resumo-blog-ocirco {
-
-
-
 }
-
-
-
-
-
-
-
 #resumo-blog-ocirco {
-
-
-
 }
-
-
-
-
-
-
-
 #mais-resumo-blog-ocirco {
-
-
-
 }
-
-
-
-
-
-
-
 #rodape-ocirco {
-
-
-
 	width: 960px;
-
-
-
 	height: 300px;
-
-
-
 	background: url(imagens/bg-rodape-ocirco.jpg) -2px 0 no-repeat;
-
-
-
 	margin: 0 auto;
-
-
-
 	overflow: hidden;
-
-
-
+	float: left;
 }
-
-
-
-
-
-
-
 #titulo-rodape-ocirco {
-
-
-
 	width: 202px;
-
-
-
 	height: 38px;
-
-
-
 	margin: 20px 0 0 20px;
-
-
-
 }
-
-
-
-
-
-
-
 #titulo-rodape-ocirco img {
-
-
-
 }
-
-
-
-
-
-
-
 #area-plugin-galeria {
-
-
-
 	background: none repeat scroll 0 0 #EEEECC;
-
-
-
 	height: 110px;
-
-
-
 	margin: 15px auto 0;
-
-
-
 	width: 900px;
-
-
-
 }
-
-
-
-
-
-
-
 /* Sidebar O Circo */
-
-
-
 #sidebar-ocirco {
-
-
-
     background: url("imagens/bg-sidebar-ocirco.jpg") no-repeat scroll center top #FAF2CD;
-
-
-
     float: right;
-
-
-
     min-height: 443px;
-
-
-
     width: 320px;
-
-
-
+}
+#banner_br {
+    border: 1px solid #999999;
+    height: 60px;
+    margin: 0 auto 30px;
+    width: 234px;
+}
+#banner_br-espetaculos {
+    border: 1px solid #999999;
+    height: 60px;
+    margin: 20px auto 30px;
+    width: 234px;
 }
 
+#banner_br-eventos {
+    border: 1px solid #999999;
+    height: 60px;
+    margin: 20px auto 30px;
+    width: 234px;
+}
+#banner_br-header {
+    border: 1px solid #999999;
+    float: right;
+    height: 60px;
+    margin: 12px 32px 0;
+    width: 234px;
+}
 
-
-
-
+#banner_br-contato {
+    border: 1px solid #999999;
+    float: right;
+    height: 60px;
+    margin-right: 20px;
+    margin-top: -67px;
+    width: 234px;
+	clear: right;
+}
 
 
 /* Todo o CSS da Prateleira encontra-se no /estilos/prateleira.css
-
-
-
 O c�digo abaixo serve para posicionar a prateleira de acordo com cada sidebar */
-
-
-
 #prateleira-ocirco {
-
-
-
     margin: 5px 0 10px 53px;
-
-
-
     width: 280px;
-
-
-
 }
-
-
-
-
-
-
-
 #agenda-ocirco {
-
-
-
 	margin: 0 0 0 38px;
-
-
-
 }
-
-
-
-
-
-
-
 #titulo-agenda-ocirco {
-
-
-
 	width: 249px;
-
-
-
 	height: 92px;
-
-
-
 }
-
-
-
-
-
-
-
 #bg-eventos-agenda {
-
-
-
     background: none repeat scroll 0 0 #FBF7E8;
-
-
-
     margin: 0 0 10px 11px;
-
-
-
     width: 236px;
-
-
-
 	padding-bottom: 1px;
-
-
-
 }
-
-
-
-
-
-
-
 .evento-agenda {
-
-
-
     margin: 0 10px 20px;
-
-
-
     padding-top: 10px;
-
-
-
     width: 91%;
-
-
-
 }
-
-
-
-
-
-
-
 .data-evento-agenda {
-
-
-
 }
-
-
-
-
-
-
-
 #bg-eventos-agenda .data-evento-agenda p {
-
-
-
 	font-family: Arial, Helvetica, sans-serif;
-
-
-
 	font-size: 25px;
-
-
-
 	letter-spacing: -1px;
-
-
-
 	text-transform: uppercase;
-
-
-
 	margin: 0;
-
-
-
 }
-
-
-
-
-
-
-
 #bg-eventos-agenda .titulo-evento-agenda {
-
-
-
 	font-weight: bold;
-
-
-
 	color: #4D0405;
-
-
-
 	margin: 5px 0 0 0; 
-
-
-
 }
-
-
-
-
-
-
-
 #bg-eventos-agenda .desc-evento-agenda p {
-
-
-
     color: #333333;
-
-
-
     font-size: 10px;
-
-
-
     line-height: 13px;
-
-
-
     margin: 0;
-
-
-
 }
-
-
-
-
-
-
-
 .left {
-
-
-
 	float: left;
-
-
-
 	margin-left: 12px
-
-
-
 }
-
-
-
-
-
-
-
 .desc {
-
-
-
     color: #666666;
-
-
-
     font-size: 10px;
-
-
-
     font-style: italic;
-
-
-
 }
-
-
-
-
-
-
-
 /* =PRATELEIRA
-
-
-
 -------------------------------------------------------------- */
-
-
-
-
-
-
-
-
-
-
-
 #prateleira {
-
-
-
 	width: 215px;
-
-
-
 	min-height: 339px;
-
-
-
-	background-color: #0FC;
-
-
-
 	margin-bottom: 30px;
-
-
-
-	background: url(imagens/prat-inferior.png) no-repeat bottom;
-
-
-
+	/*background-color: #0FC;	
+	background: url(imagens/prat-inferior.png) no-repeat bottom;*/
 }
-
-
-
-
-
-
-
 #superior-prat {
-
-
-
 	background: url(imagens/prat-superior.png) no-repeat top;
-
-
-
 	width: 100%;
-
-
-
-	height: 167px;
-
-
-
+	height: 510px;
 }
-
-
-
-
-
-
-
 #bg-prat {
-
-
-
-	background: url(imagens/prat-meio.png) repeat-y 2px 0;
-
-
-
+	/*background: url(imagens/prat-meio.png) repeat-y 2px 0;*/
 	width: 220px;
-
-
-
 	min-height: 100px;
-
-
-
 	float: left;
-
-
-
 	margin: 160px 0 0 0;
-
-
-
 }
-
-
-
-
-
-
-
 #conteudo-prat {
-
-
-
 	width: 173px;
-
-
-
 	min-height: 200px;
-
-
-
 	float: left;
-
-
-
-    margin: -180px 0 80px 20px;
-
-
-
+    margin: -431px 0 80px 20px;
 }
-
-
-
-
-
-
-
 #hack-sidebar {
-
-
-
 	width: 100%;
-
-
-
 	height: 1px;
-
-
-
 	clear: both;
-
-
-
 }
-
-
-
-
-
-
-
 .a-prat {
-
-
-
 }
-
-
-
-
-
-
-
 .img-prat {
-
-
-
     border: 0 none;
-
-
-
     margin: 3px 0 0;
-
-
-
 	opacity:0.50;
-
-
-
 	-moz-opacity: 0.50;
-
-
-
 	filter: alpha(opacity=50);
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
 .img-prat:hover {
-
-
-
     border: 0 none;
-
-
-
     margin: 3px 0 0;
-
-
-
 	opacity:1;
-
-
-
 	-moz-opacity:1;
-
-
-
 	filter: alpha(opacity=100);
-
-
-
 }
-
-
-
-
-
-
 
 .btn-equipe:hover {
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
 /* =PROJETOS
-
-
-
 -------------------------------------------------------------- */
-
-
-
-
-
-
-
-
-
-
-
 .page-template-archive-projetos-php {
-
-
-
 	background: url(imagens/bg-home.jpg) no-repeat fixed center 0 #4D0405;
-
-
-
 }
-
-
-
-
-
-
-
 .page-template-em-captacao-php {
-
-
-
 	background: url(imagens/bg-home.jpg) no-repeat fixed center 0 #4D0405;
-
-
-
 }
-
-
-
-
-
-
-
 #header-projetos {
-
-
-
-    height: 140px;
-
-
-
+    height: 160px;
     margin: 20px auto 0;
-
-
-
     width: 730px;
-
-
-
 }
-
-
-
-
-
-
-
 #logo-header-projetos {
-
-
-
     background: url("imagens/logo-vox-branco.png") no-repeat scroll 0 center transparent;
-
-
-
     float: left;
-
-
-
     height: 100px;
-
-
-
     width: 160px;
-
-
-
 }
-
-
-
-
-
-
-
 #logo-header-projetos:hover {
-
-
-
 	background: url("imagens/logo-vox-branco.png") no-repeat scroll -165px 0 transparent;
-
-
-
 }
-
-
-
-
-
-
-
-.a-logo {
-
-
-
-	width: 160px;
-
-
-
-	height: 100px;
-
-
-
-	position: absolute;
-
-
-
-}
-
-
-
-
-
-
-
 .menu-header {
-
-
-
 	float: left;
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
 #conteudo-projetos {
-
-
-
     color: #1E0400;
-
-
-
     font-family: Verdana,Geneva,sans-serif;
-
-
-
     font-size: 12px;
-
-
-
     line-height: 20px;
-
-
-
     margin: 0 auto;
-
-
-
     overflow: hidden;
-
-
-
     width: 980px;
-
-
-
 	background: url("imagens/bg-conteudo-projetos.jpg") no-repeat scroll 165px top transparent;
-
-
-
 }
-
-
-
-
-
-
-
 #bg-projetos {
-
-
-
 	background: url("imagens/bg-conteudo-projetos-repeat.jpg") repeat-y scroll 165px 0 transparent;
-
-
-
 	width: 980px;
-
-
-
 	overflow: hidden;
-
-
-
 }
-
-
-
-
-
-
-
 #centro-projetos {
-
-
-
 	width: 600px;
-
-
-
 	min-height: 800px;
-
-
-
 	float: left;
-
-
-
 }
-
-
-
-
-
-
-
 #superior-centro-projetos {
-
-
-
     height: 60px;
-
-
-
     margin-top: 30px;
-
-
-
     width: 100%;
-
-
-
 }
-
-
-
-
-
-
-
 .hack-fixed {
-
-
-
 	position: fixed;
-
-
-
 }
-
-
-
-
-
-
-
 #captacao-realizados {
-
-
-
     float: left;
-
-
-
     height: 30px;
-
-
-
     margin: 14px 0 0 52px;
-
-
-
     width: 280px;
-
-
-
 }
-
-
-
-
-
-
-
 #btn-captacao {
-
-
-
 	width: 135px;
-
-
-
 	height: 28px;
-
-
-
 	float: left;
-
-
-
 }
-
-
-
-
-
-
-
 .a-btn-captacao {
-
-
-
 	position: absolute;
-
-
-
 	width: 135px;
-
-
-
 	height: 30px;
-
-
-
 	background: url(imagens/captacao-realizados-2.png);
-
-
-
 }
-
-
-
-
-
-
-
 .span-btn-captacao {
-
-
-
     background: url("imagens/captacao-realizados-2.png") repeat scroll 3px -57px transparent;
-
-
-
     height: 27px;
-
-
-
     position: absolute;
-
-
-
     width: 135px;
-
-
-
 }
-
-
-
-
-
-
-
 .a-btn-captacao:hover {
-
-
-
 	background: url(imagens/captacao-realizados-2.png) 0 -29px no-repeat;
-
-
-
 }
-
-
-
-
-
-
-
 #btn-realizados {
-
-
-
     float: left;
-
-
-
     height: 28px;
-
-
-
     width: 135px;
-
-
-
 }
-
-
-
-
-
-
-
 .a-btn-realizados {
-
-
-
     background: url("imagens/captacao-realizados-2.png") repeat scroll -131px 51px transparent;
-
-
-
     height: 30px;
-
-
-
     position: absolute;
-
-
-
     width: 140px;
-
-
-
 }
-
-
-
-
-
-
-
 .span-btn-realizados {
-
-
-
   background: url("imagens/captacao-realizados-2.png") repeat scroll -135px 0 transparent;
-
-
-
     height: 30px;
-
-
-
     position: absolute;
-
-
-
     width: 140px;
-
-
-
 }
-
-
-
-
-
-
-
 .a-btn-realizados:hover {
-
-
-
 	background: url("imagens/captacao-realizados-2.png") no-repeat scroll -131px -85px transparent;
-
-
-
 }
-
-
-
-
-
-
-
 #esquerda-projetos {
-
-
-
 	float: left;
-
-
-
 	width: 190px;
-
-
-
     padding-top: 1px;
-
-
-
 }
-
-
-
-
-
-
-
 #direita-projetos {
-
-
-
 	float: right;
-
-
-
 	width: 186px;
-
-
-
 }
-
-
-
-
-
-
-
 #titulo-projetos {
-
-
-
 	background: url(imagens/titulo-projetos.png) no-repeat;
-
-
-
 	width: 200px;
-
-
-
 	height: 53px;
-
-
-
 	margin: 0 0 20px 30px;
-
-
-
 	float: left;
-
-
-
 }
-
-
-
-
-
-
-
 .post-projetos {
-
-
-
 	margin: 10px 0 20px 2px;
-
-
-
 	width: 600px;
-
-
-
 }
-
-
-
-
-
-
-
 .post-projetos a {
-
-
-
 	margin: 0;
-
-
-
 }
-
-
-
-
-
-
-
 .post-projetos img {
-
-
-
 	border: 4px solid #eee8d2;
-
-
-
 }
-
-
-
-
-
-
-
 .post-projetos img:hover {
-
-
-
 	border: 4px solid #900;
-
-
-
 }
-
-
-
-
-
-
-
 #conteudo-blog .titulo-blog a {
-
-
-
     color: #8F0000;
-
-
-
     font-family: trebuchet MS;
-
-
-
     font-size: 22px;
-
-
-
     text-decoration: none;
-
-
-
 }
-
-
-
-
-
-
-
 #footer-projetos {
-
-
-
     background: url("imagens/bg-rodape-projetos.jpg") no-repeat scroll 125px 0 transparent;
-
-
-
     height: 110px;
-
-
-
     margin: 0 auto;
-
-
-
-    padding-top: 40px;
-
-
-
+    padding-top: 16px;
     width: 900px;
-
-
-
+float: left;
 }
-
-
-
-
-
-
-
 #footer-projetos p {
-
-
-
 	line-height: 14px;
-
-
-
 }
-
-
-
-
-
-
+#direita-footer-projetos {	
+	float: left;
+    height: 90px; 
+    margin: 9px 0 19px 195px;
+    width: 515px;}
 
 /* =ESPETACULOS
-
-
-
 -------------------------------------------------------------- */
-
-
-
-
-
-
-
-
-
-
-
 .page-id-113 {
-
-
-
 	background: url(imagens/bg-espetaculos.jpg) no-repeat center -48px fixed #4d0405 !important;
-
-
-
 }
-
-
-
-
-
-
-
 #access-espetaculos {
-
-
-
 	float: right;
-
-
-
 	height: 30px;
-
-
-
 	margin: 40px 0 0 0;
-
-
-
 }
-
-
-
-
-
-
-
 #access-espetaculos li {
-
-
-
 	display: inline;
-
-
-
 	margin: 0 10px;
-
-
-
 }
-
-
-
-
-
-
-
 #access-espetaculos ul {
-
-
-
 	margin: 4px 0 0 0;
-
-
-
 }
-
-
-
-
-
-
-
 #access-espetaculos a {
-
-
-
 	color: #f1edcd;
-
-
-
 	font-family: Arial, Helvetica, sans-serif;
-
-
-
 	text-transform: uppercase;
-
-
-
 	font-size: 13px;
-
-
-
 	text-decoration: none;
-
-
-
 }
-
-
-
-
-
-
-
 #access-espetaculos a:hover {
-
-
-
 	color: #FFF;
-
-
-
 	text-decoration: underline;
-
-
-
 }
-
-
-
-
-
-
-
 #access-espetaculos .menu-header {
-
-
-
 	float: left;
-
-
-
 }
-
-
-
-
-
-
-
 #header-espetaculos {
-
-
-
     background: url("imagens/personagens-espetaculos.png") no-repeat scroll center -22px transparent;
-
-
-
     height: 300px;
-
-
-
     margin: 0 auto;
-
-
-
     width: 960px;
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
 #logo-header-espetaculos {
-
-
-
 	background: url("imagens/logo-vox-branco.png") no-repeat scroll 0 center transparent;
-
-
-
 	width: 160px;
-
-
-
 	height: 100px;
-
-
-
 	float: left;
-
-
-
     margin: 40px 0 0 20px;
-
-
-
 }
-
-
-
-
-
-
-
 #logo-header-espetaculos:hover {
-
-
-
 	background: url("imagens/logo-vox-branco.png") no-repeat scroll -165px 0 transparent;
-
-
-
 }
-
-
-
-
-
-
-
 #img-personas-espetaculos {
-
-
-
 	background: url(imagens/bg-personagens.jpg) no-repeat center bottom;
-
-
-
 	width: 960px;
-
-
-
 	height: 257px;
-
-
-
 	margin: 60px auto 0 auto;
-
-
-
 }
-
-
-
-
-
-
-
 #img-personas-espetaculos img {
-
-
-
 	margin: 0 0 0 182px;
-
-
-
 }
-
-
-
-
-
-
-
 #conteudo-espetaculos {
-
-
-
 	background: url(imagens/bg-ocirco.jpg) repeat-y #f7f0c3;
-
-
-
 	width: 960px;
-
-
-
 	margin: 0 auto;
-
-
-
 	overflow: hidden;
-
-
-
 	color: #1e0400;
-
-
-
 	font-family: Verdana, Geneva, sans-serif;
-
-
-
 	font-size: 12px;
-
-
-
 	line-height: 20px;
-
-
-
     padding-bottom: 30px;
-
-
-
 }
-
-
-
-
-
-
-
 #conteudo-espetaculos p {
-
-
-
 	color: #1e0400;
-
-
-
 	margin: 3px 0 10px 3px;
-
-
-
 }
-
-
-
-
-
-
-
 #esquerda-espetaculos {
-
-
-
 	background: url(imagens/bg-conteudo-ocirco.jpg) no-repeat #f7f0c3;
-
-
-
 	float: left;
-
-
-
 	width: 640px;
-
-
-
 }
-
-
-
-
-
-
-
 #titulo-espetaculos {
-
-
-
 	background: url(imagens/titulo-espetaculos.png);
-
-
-
 	width: 243px;
-
-
-
 	height: 60px;
-
-
-
 	margin: 30px; 0 20px 30px;
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
 .post-espetaculos {
-
-
-
 	margin: 10px 0 20px 15px;
-
-
-
 	width: 600px;
-
-
-
 }
-
-
-
-
-
-
-
 .post-espetaculos a {
-
-
-
 	margin: 0;
-
-
-
 }
-
-
-
-
-
-
-
 .post-espetaculos img {
-
-
-
 	border: 4px solid #eee8d2;
-
-
-
 }
-
-
-
-
-
-
-
 .post-espetaculos img:hover {
-
-
-
 	border: 4px solid #900;
-
-
-
 }
-
-
-
-
-
-
-
 .saibamais-post-espetaculos {
-
-
-
 }
-
-
-
-
-
-
-
 #rodape-conteudo-espetaculos {
-
-
-
 	width: 640px;
-
-
-
 }
-
-
-
-
-
-
-
 #linha-top-rodape-conteudo-espetaculos {
-
-
-
     background: url("imagens/linha.png") no-repeat scroll 0 0 transparent;
-
-
-
     height: 13px;
-
-
-
     margin: 10px 0 20px 40px;
-
-
-
     width: 549px;
-
-
-
 }
-
-
-
-
-
-
-
 /* Sidebar O Circo */
-
-
-
 #sidebar-espetaculos {
-
-
-
     background: url("imagens/bg-sidebar-ocirco.jpg") no-repeat scroll center top #FAF2CD;
-
-
-
     float: right;
-
-
-
     min-height: 443px;
-
-
-
     width: 320px;
-
-
-
 }
-
-
-
-
-
-
-
 /* Todo o CSS da Prateleira encontra-se no /estilos/prateleira.css
-
-
-
 O c�digo abaixo serve para posicionar a prateleira de acordo com cada sidebar */
-
-
-
 #prateleira-espetaculos {
-
-
-
     margin: 30px 0 10px 53px;
-
-
-
     width: 280px;
-
-
-
 }
-
-
-
-
-
-
-
 #agenda-espetaculos {
-
-
-
 	margin: 0 0 0 38px;
-
-
-
 }
-
-
-
-
-
-
-
 #titulo-agenda-espetaculos {
-
-
-
 	width: 249px;
-
-
-
 	height: 92px;
-
-
-
 }
-
-
-
-
-
-
-
 #bg-eventos-agenda {
-
-
-
     background: none repeat scroll 0 0 #FBF7E8;
-
-
-
     margin: 0 0 10px 11px;
-
-
-
     width: 236px;
-
-
-
 	padding-bottom: 1px;
-
-
-
 }
-
-
-
-
-
-
-
 .evento-agenda {
-
-
-
     margin: -3px 10px 25px;
-
-
-
     width: 91%;
-
-
-
 }
-
-
-
-
-
-
-
 .data-evento-agenda {
-
-
-
 }
-
-
-
-
-
-
-
 #bg-eventos-agenda .data-evento-agenda p {
-
-
-
 	font-family: Arial, Helvetica, sans-serif;
-
-
-
 	font-size: 25px;
-
-
-
 	letter-spacing: -1px;
-
-
-
 	text-transform: uppercase;
-
-
-
 	margin: 0;
-
-
-
 }
-
-
-
-
-
-
-
 #bg-eventos-agenda .titulo-evento-agenda {
-
-
-
 	font-weight: bold;
-
-
-
 	color: #4D0405;
-
-
-
 	margin: 5px 0 0 0; 
-
-
-
 }
-
-
-
-
-
-
-
 #bg-eventos-agenda .desc-evento-agenda p {
-
-
-
     color: #333333;
-
-
-
     font-size: 10px;
-
-
-
     line-height: 13px;
-
-
-
     margin: 0;
-
-
-
 }
-
-
-
-
-
-
-
 #assine-news-espetaculos {
-
-
-
     margin: 30px 0 20px 56px;
-
-
-
     width: 230px;
-
-
-
 }
-
-
-
-
-
-
-
 .a-assine-news-espetaculos {
-
-
-
     background: url("imagens/btn-newsletter.png") no-repeat scroll 0 0 transparent;
-
-
-
 	height: 79px;
-
-
-
 	width: 230px;
-
-
-
 	position: absolute;
-
-
-
 }
-
-
-
-
-
-
-
 #mostra {
-
-
-
     background: url("imagens/btn-newsletter.png") no-repeat scroll 0 0 transparent;
-
-
-
     display: block;
-
-
-
     height: 79px;
-
-
-
     text-indent: -9999px;
-
-
-
     width: 230px;
-
-
-
 	cursor: pointer;
-
-
-
 }
-
-
-
-
-
-
-
 #oculto {
-
-
-
 	display: none;
-
-
-
 }
-
-
-
-
-
-
-
 .wpcf7-text {
-
-
-
     background: none repeat scroll 0 0 #FBF7E8;
-
-
-
     border: 2px solid #877839;
-
-
-
     color: #082936;
-
-
-
     font-size: 13px;
-
-
-
     height: 20px;
-
-
-
     padding: 3px;
-
-
-
     width: 210px;
-
-
-
 }
-
-
-
-
-
-
-
 .desc {
-
-
-
     color: #666666;
-
-
-
     font-size: 10px;
-
-
-
     font-style: italic;
-
-
-
 }
-
-
-
-
-
-
-
 #redes-sociais-espetaculos {
-
-
-
 	height: 77px;
-
-
-
 	width: 230px;
-
-
-
 	margin: 10px 0 20px 47px;
-
-
-
 }
-
-
-
-
-
-
-
 .a-redes-sociais-espetaculos {
-
-
-
     background: url("imagens/btn-redes-sociais.png") no-repeat scroll 0 0 transparent;
-
-
-
 	height: 77px;
-
-
-
 	width: 230px;
-
-
-
 	position: absolute;
-
-
-
 }
-
-
-
-
-
-
-
 /* Footer */
-
-
-
 #direita-footer .red, .red {
-
-
-
 	color: #86090B;
-
-
-
 }
-
-
-
-
-
-
-
 #direita-footer a.red:hover {
-
-
-
 	color: #000;
-
-
-
 }
-
-
-
-
-
-
-
 #centro-footer-espetaculos {
-
-
-
 	float: left;
-
-
-
 	background: url(imagens/vox-vermelho_rodape.png) no-repeat;
-
-
-
 	width: 65px;
-
-
-
 	height: 45px;
-
-
-
 }
-
-
-
-
-
-
-
 #rodape-espetaculos {
-
-
-
 	width: 960px;
-
-
-
 	overflow: hidden;
-
-
-
-	height: 70px;
-
-
-
-    margin: 40px auto 10px;
-
-
-
-}
-
-
-
-
-
-
-
-#titulo-rodape-espetaculos {
-
-
-
-	width: 202px;
-
-
-
-	height: 38px;
-
-
-
-	margin: 20px 0 0 20px;
-
-
-
-}
-
-
-
-
-
-
-
-#titulo-rodape-espetaculos img {
-
-
-
-}
-
-
-
-
-
-
-
-/* =EVENTOS
-
-
-
--------------------------------------------------------------- */
-
-
-
-
-
-
-
-.page-template-default {
-
-
-
-    background: url("imagens/bg-eventos.jpg") no-repeat fixed center -48px #4d0405;
-
-
-
-	margin: 0 auto;
-
-
-
-	}
-
-
-
-
-
-
-
-#access-eventos {
-
-
-
-	float: right;
-
-
-
-	height: 30px;
-
-
-
-	margin: 40px 0 0 0;
-
-
-
-}
-
-
-
-
-
-
-
-#access-eventos li {
-
-
-
-	display: inline;
-
-
-
-	margin: 0 10px;
-
-
-
-}
-
-
-
-
-
-
-
-#access-eventos ul {
-
-
-
-	margin: 4px 0 0 0;
-
-
-
-}
-
-
-
-
-
-
-
-#access-eventos a {
-
-
-
-	color: #f1edcd;
-
-
-
-	font-family: Arial, Helvetica, sans-serif;
-
-
-
-	text-transform: uppercase;
-
-
-
-	font-size: 13px;
-
-
-
-	text-decoration: none;
-
-
-
-}
-
-
-
-
-
-
-
-#access-eventos a:hover {
-
-
-
-	color: #FFF;
-
-
-
-	text-decoration: underline;
-
-
-
-}
-
-
-
-
-
-
-
-#access-eventos .menu-header {
-
-
-
-	float: left;
-
-
-
-}
-
-
-
-
-
-
-
-#header-eventos {
-
-
-
-	width: 960px;
-
-
-
-	margin: 0 auto 0 auto;
-
-
-
-	background: url(imagens/personagens-eventos.png) no-repeat scroll center -22px transparent;
-
-
-
-	height: 300px;
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-#logo-header-eventos {
-
-
-
-	background: url("imagens/logo-vox-branco.png") no-repeat scroll 0 center transparent;
-
-
-
-	width: 160px;
-
-
-
 	height: 100px;
-
-
-
-	float: left;
-
-
-
-    margin: 40px 0 0 20px;
-
-
-
-}
-
-
-
-
-
-
-
-#logo-header-eventos:hover {
-
-
-
-	background: url("imagens/logo-vox-branco.png") no-repeat scroll -165px 0 transparent;
-
-
-
-}
-
-
-
-
-
-
-
-#img-personas-eventos {
-
-
-
-	background: url(imagens/bg-personagens.jpg) no-repeat center bottom;
-
-
-
-	width: 960px;
-
-
-
-	height: 257px;
-
-
-
-	margin: 60px auto 0 auto;
-
-
-
-}
-
-
-
-
-
-
-
-#img-personas-eventos img {
-
-
-
-	margin: 0 0 0 182px;
-
-
-
-}
-
-
-
-
-
-
-
-#resumo-eventos {
-
-
-
-	margin: 0 30px 30px 30px;
-
-
-
-}
-
-
-
-
-
-
-
-#conteudo-eventos {
-
-
-
-	background: url(imagens/bg-ocirco.jpg) repeat-y #f7f0c3;
-
-
-
-	width: 960px;
-
-
-
-	margin: 0 auto;
-
-
-
-	overflow: hidden;
-
-
-
-	color: #1e0400;
-
-
-
-	font-family: Verdana, Geneva, sans-serif;
-
-
-
-	font-size: 12px;
-
-
-
-	line-height: 20px;
-
-
-
-    padding-bottom: 30px;
-
-
-
-}
-
-
-
-
-
-
-
-#conteudo-eventos p {
-
-
-
-	color: #1e0400;
-
-
-
-	margin: 3px 0 10px 3px;
-
-
-
-}
-
-
-
-
-
-
-
-#esquerda-eventos {
-
-
-
-    background: url("imagens/bg-conteudo-ocirco.jpg") no-repeat scroll 0 0 #F7F0C3;
-
-
-
-    float: left;
-
-
-
-    min-height: 500px;
-
-
-
-    width: 640px;
-
-
-
-}
-
-
-
-
-
-
-
-#titulo-eventos {
-
-
-
-	background: url(imagens/titulo-eventos.png);
-
-
-
-	width: 245px;
-
-
-
-	height: 57px;
-
-
-
-	margin: 30px; 0 20px 30px;
-
-
-
-}
-
-
-
-
-
-
-
-#cada-eventos {
-
-
-
-	width: 570px;
-
-
-
-	height: 150px;
-
-
-
-	margin: 0 0 40px 30px;
-
-
-
-}
-
-
-
-
-
-
-
-#thumb-eventos {
-
-
-
-	width: 280px;
-
-
-
-	height: 130px;
-
-
-
-	float: left;
-
-
-
-}
-
-
-
-
-
-
-
-#thumb-eventos img {
-
-
-
-	border: 4px solid #f7f0c3;
-
-
-
-}
-
-
-
-
-
-
-
-#thumb-eventos img:hover {
-
-
-
-	border: 4px solid #990000;
-
-
-
-}
-
-
-
-
-
-
-
-#titulos-cada-eventos {
-
-
-
-	float: left;
-
-
-
-	width: 270px;
-
-
-
-	margin: 0 0 0 20px;
-
-
-
-}
-
-
-
-
-
-
-
-#titulos-cada-eventos h2 {
-
-
-
-	margin: 4px 0 8px 0;
-
-
-
-}
-
-
-
-
-
-
-
-#titulos-cada-eventos a {
-
-
-
-	color: #a50408;
-
-
-
-	text-decoration: none;
-
-
-
-}
-
-
-
-
-
-
-
-#titulos-cada-eventos a:hover {
-
-
-
-	color: #3f0504;
-
-
-
-	text-decoration: underline;
-
-
-
-}
-
-
-
-
-
-
-
-#excerpt-eventos {
-
-
-
-    float: left;
-
-
-
-    margin: 0 0 0 24px;
-
-
-
-    width: 260px;
-
-
-
-}
-
-
-
-
-
-
-
-#mais-eventos {
-
-
-
-	float: right;
-
-
-
-	width: 100px;
-
-
-
-	height: 20px;
-
-
-
-	margin: 0 0 0 0;
-
-
-
-	text-align: right;
-
-
-
-}
-
-
-
-
-
-
-
-#mais-eventos a {
-
-
-
-	color: #a50408;
-
-
-
-	text-decoration: none;
-
-
-
-}
-
-
-
-
-
-
-
-#mais-eventos a:hover {
-
-
-
-	color: #3f0504;
-
-
-
-	text-decoration: underline;
-
-
-
-}
-
-
-
-
-
-
-
-.post-eventos {
-
-
-
-	margin: 10px 0 20px 15px;
-
-
-
-	width: 600px;
-
-
-
-}
-
-
-
-
-
-
-
-.post-eventos a {
-
-
-
-	margin: 0;
-
-
-
-}
-
-
-
-
-
-
-
-.post-eventos img {
-
-
-
-	border: 4px solid #eee8d2;
-
-
-
-}
-
-
-
-
-
-
-
-.post-eventos img:hover {
-
-
-
-	border: 4px solid #900;
-
-
-
-}
-
-
-
-
-
-
-
-.saibamais-post-eventos {
-
-
-
-}
-
-
-
-
-
-
-
-#rodape-conteudo-eventos {
-
-
-
-	width: 640px;
-
-
-
-}
-
-
-
-
-
-
-
-#linha-top-rodape-conteudo-eventos {
-
-
-
-    background: url("imagens/linha.png") no-repeat scroll 0 0 transparent;
-
-
-
-    height: 13px;
-
-
-
-    margin: 10px 0 20px 40px;
-
-
-
-    width: 549px;
-
-
-
-}
-
-
-
-
-
-
-
-/* Sidebar O Circo */
-
-
-
-#sidebar-eventos {
-
-
-
-    background: url("imagens/bg-sidebar-ocirco.jpg") no-repeat scroll center top #FAF2CD;
-
-
-
-    float: right;
-
-
-
-    min-height: 443px;
-
-
-
-    width: 320px;
-
-
-
-}
-
-
-
-
-
-
-
-/* Todo o CSS da Prateleira encontra-se no /estilos/prateleira.css
-
-
-
-O c�digo abaixo serve para posicionar a prateleira de acordo com cada sidebar */
-
-
-
-#prateleira-eventos {
-
-
-
-    margin: 30px 0 10px 53px;
-
-
-
-    width: 280px;
-
-
-
-}
-
-
-
-
-
-
-
-#agenda-eventos {
-
-
-
-	margin: 0 0 0 38px;
-
-
-
-}
-
-
-
-
-
-
-
-#titulo-agenda-eventos {
-
-
-
-	width: 249px;
-
-
-
-	height: 92px;
-
-
-
-}
-
-
-
-
-
-
-
-#bg-eventos-agenda {
-
-
-
-    background: none repeat scroll 0 0 #FBF7E8;
-
-
-
-    margin: 0 0 10px 11px;
-
-
-
-    width: 236px;
-
-
-
-	padding-bottom: 1px;
-
-
-
-}
-
-
-
-
-
-
-
-.evento-agenda {
-
-
-
-    margin: -3px 10px 25px;
-
-
-
-    width: 91%;
-
-
-
-}
-
-
-
-
-
-
-
-.data-evento-agenda {
-
-
-
-}
-
-
-
-
-
-
-
-#bg-eventos-agenda .data-evento-agenda p {
-
-
-
-	font-family: Arial, Helvetica, sans-serif;
-
-
-
-	font-size: 25px;
-
-
-
-	letter-spacing: -1px;
-
-
-
-	text-transform: uppercase;
-
-
-
-	margin: 0;
-
-
-
-}
-
-
-
-
-
-
-
-#bg-eventos-agenda .titulo-evento-agenda {
-
-
-
-	font-weight: bold;
-
-
-
-	color: #4D0405;
-
-
-
-	margin: 5px 0 0 0; 
-
-
-
-}
-
-
-
-
-
-
-
-#bg-eventos-agenda .desc-evento-agenda p {
-
-
-
-    color: #333333;
-
-
-
-    font-size: 10px;
-
-
-
-    line-height: 13px;
-
-
-
-    margin: 0;
-
-
-
-}
-
-
-
-
-
-
-
-#assine-news-eventos {
-
-
-
-    margin: 30px 0 20px 56px;
-
-
-
-    width: 230px;
-
-
-
-}
-
-
-
-
-
-
-
-.a-assine-news-eventos {
-
-
-
-    background: url("imagens/btn-newsletter.png") no-repeat scroll 0 0 transparent;
-
-
-
-	height: 79px;
-
-
-
-	width: 230px;
-
-
-
-	position: absolute;
-
-
-
-}
-
-
-
-
-
-
-
-#mostra {
-
-
-
-    background: url("imagens/btn-newsletter.png") no-repeat scroll 0 0 transparent;
-
-
-
-    display: block;
-
-
-
-    height: 79px;
-
-
-
-    text-indent: -9999px;
-
-
-
-    width: 230px;
-
-
-
-	cursor: pointer;
-
-
-
-}
-
-
-
-
-
-
-
-#oculto {
-
-
-
-	display: none;
-
-
-
-}
-
-
-
-
-
-
-
-.wpcf7-text {
-
-
-
-    background: none repeat scroll 0 0 #FBF7E8;
-
-
-
-    border: 2px solid #877839;
-
-
-
-    color: #082936;
-
-
-
+    margin: 40px auto 10px;
+    font-family: Verdana,Geneva,sans-serif;
     font-size: 13px;
-
-
-
-    height: 20px;
-
-
-
-    padding: 3px;
-
-
-
-    width: 210px;
-
-
-
 }
-
-
-
-
-
-
-
-.desc {
-
-
-
-    color: #666666;
-
-
-
-    font-size: 10px;
-
-
-
-    font-style: italic;
-
-
-
-}
-
-
-
-
-
-
-
-#redes-sociais-eventos {
-
-
-
-	height: 77px;
-
-
-
-	width: 230px;
-
-
-
-	margin: 10px 0 20px 47px;
-
-
-
-}
-
-
-
-
-
-
-
-.a-redes-sociais-eventos {
-
-
-
-    background: url("imagens/btn-redes-sociais.png") no-repeat scroll 0 0 transparent;
-
-
-
-	height: 77px;
-
-
-
-	width: 230px;
-
-
-
-	position: absolute;
-
-
-
-}
-
-
-
-
-
-
-
-/* Footer */
-
-
-
-#direita-footer .red, .red {
-
-
-
-	color: #86090B;
-
-
-
-}
-
-
-
-
-
-
-
-#direita-footer a.red:hover {
-
-
-
-	color: #000;
-
-
-
-}
-
-
-
-
-
-
-
-#centro-footer-eventos {
-
-
-
-	float: left;
-
-
-
-	background: url(imagens/vox-vermelho_rodape.png) no-repeat;
-
-
-
-	width: 65px;
-
-
-
-	height: 45px;
-
-
-
-}
-
-
-
-
-
-
-
-#rodape-eventos {
-
-
-
-	width: 960px;
-
-
-
-	overflow: hidden;
-
-
-
-	height: 70px;
-
-
-
-    margin: 40px auto 10px;
-
-
-
-}
-
-
-
-
-
-
-
-#titulo-rodape-eventos {
-
-
-
+#titulo-rodape-espetaculos {
 	width: 202px;
-
-
-
 	height: 38px;
-
-
-
 	margin: 20px 0 0 20px;
-
-
-
 }
-
-
-
-
-
-
-
-#titulo-rodape-eventos img {
-
-
-
+#titulo-rodape-espetaculos img {
 }
-
-
-
-
-
-
-
-
-
-
-
-/* =BLOG
-
-
-
+/* =EVENTOS
 -------------------------------------------------------------- */
-
-
-
-
-
-
-
-.single-post {
-
-
-
-	background: url("imagens/bg-blog.jpg") no-repeat fixed center -135px #efefef !important;
-
-
-
+.page-template-default {
+    background: url("imagens/bg-eventos.jpg") no-repeat fixed center -48px #4d0405;
+	margin: 0 auto;
+	}
+#access-eventos {
+	float: right;
+	height: 30px;
+	margin: 40px 0 0 0;
 }
-
-
-
-
-
-
-
-.page-template-page-blog-php {
-
-
-
-	background: url("imagens/bg-blog.jpg") no-repeat fixed center -135px #efefef !important;
-
-
-
+#access-eventos li {
+	display: inline;
+	margin: 0 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-/* COISAS DE MENU */
-
-
-
-#access-vermelho a {
-
-
-
-    color: #b46868;
-
-
-
-    display: block;
-
-
-
-    line-height: 40px;
-
-
-
-    padding: 0 10px;
-
-
-
-    text-decoration: none;
-
-
-
+#access-eventos ul {
+	margin: 4px 0 0 0;
+}
+#access-eventos a {
+	color: #f1edcd;
 	font-family: Arial, Helvetica, sans-serif;
-
-
-
 	text-transform: uppercase;
-
-
-
-}
-
-
-
-
-
-
-
-#access-vermelho a:hover {
-
-
-
-   	color: #000;
-
-
-
 	font-size: 13px;
-
-
-
 	text-decoration: none;
-
-
-
 }
-
-
-
-
-
-
-
-#access-vermelho a:active {
-
-
-
-    color: #FFF;
-
-
-
+#access-eventos a:hover {
+	color: #FFF;
+	text-decoration: underline;
 }
-
-
-
-
-
-
-
-#access-vermelho li {
-
-
-
-    display: inline;
-
-
-
-    font-size: 14px;
-
-
-
-    font-weight: bold;
-
-
-
-    padding: 0;
-
-
-
-    text-transform: uppercase;
-
-
-
-}
-
-
-
-
-
-
-
-.sub-menu {
-
-
-
-    background-color: #340304;
-
-
-
-}
-
-
-
-
-
-
-
-.sub-menu a {
-
-
-
-	color: #FCFCFC;
-
-
-
-}
-
-
-
-
-
-
-
-#access-vermelho ul {
-
-
-
-    margin-top: 8px;
-
-
-
-    padding: 0;
-
-
-
-}
-
-
-
-
-
-
-
-#access-vermelho .menu-header, div.menu {
-
-
-
-   	float: right;
-
-
-
-	margin: 33px 0 0 0;
-
-
-
-}
-
-
-
-
-
-
-
-#access-vermelho .menu-header ul, div.menu ul {
-
-
-
-    list-style: none outside none;
-
-
-
-    margin: 0;
-
-
-
-}
-
-
-
-
-
-
-
-#access-vermelho .menu-header li, div.menu li {
-
-
-
-    float: left;
-
-
-
-    position: relative;
-
-
-
-}
-
-
-
-
-
-
-
-#access-vermelho ul ul {
-
-
-
-    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-
-
-
-    display: none;
-
-
-
-    float: left;
-
-
-
-    left: 3px;
-
-
-
-    position: absolute;
-
-
-
-    top: 40px;
-
-
-
-    z-index: 99999;
-
-
-
-}
-
-
-
-
-
-
-
-#access-vermelho ul ul li {
-
-
-
-}
-
-
-
-
-
-
-
-#access-vermelho ul ul ul {
-
-
-
-    left: 100%;
-
-
-
-    top: 0;
-
-
-
-}
-
-
-
-
-
-
-
-#access-vermelho ul ul a {
-
-
-
-    background: none repeat scroll 0 0 #340304;
-
-
-
-    height: auto;
-
-
-
-    line-height: 1em;
-
-
-
-    padding: 10px;
-
-
-
-}
-
-
-
-
-
-
-
-#access-vermelho li:hover > a, #access ul ul *:hover > a {
-
-
-
-    color: #470000;
-
-
-
-}
-
-
-
-
-
-
-
-#access-vermelho .sub-menu a {
-
-
-
-    color: #e4e4e4;
-
-
-
-}
-
-
-
-
-
-
-
-#access-vermelho ul li:hover > ul {
-
-
-
-    display: block;
-
-
-
-	min-width: 140px;
-
-
-
-}
-
-
-
-
-
-
-
-#access-vermelho ul li.current_page_item > a, #access ul li.current-menu-ancestor > a, #access ul li.current-menu-item > a, #access ul li.current-menu-parent > a {
-
-
-
-    background: none repeat scroll 0 0 #340304;
-
-
-
-	color: #F1EDCD;
-
-
-
-}
-
-
-
-
-
-
-
-* html #menu ul li.current_page {
-
-
-
-}
-
-
-
-
-
-
-
-/* FECHA COISAS DE MENU */ 
-
-
-
-
-
-
-
-/* HEADER BLOG */
-
-
-
-#header-blog {
-
-
-
-	width: 960px;
-
-
-
-	height: 130px;
-
-
-
-	margin: 0 auto 10px auto;
-
-
-
-	padding: 40px 0 0 0;
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#logo-header-vermelho {
-
-
-
-
-
-
-
-	background: url("imagens/logo-vox-vermelho.png") no-repeat scroll 0 center transparent;
-
-
-
-
-
-
-
-	width: 160px;
-
-
-
-
-
-
-
-	height: 100px;
-
-
-
-
-
-
-
+#access-eventos .menu-header {
 	float: left;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#logo-header-vermelho:hover {
-
-
-
-
-
-
-
-	background: url("imagens/logo-vox-vermelho.png") no-repeat scroll -165px 0 transparent;
-
-
-
-
-
-
-
+#header-eventos {
+	width: 960px;
+	margin: 0 auto 0 auto;
+	background: url(imagens/personagens-eventos.png) no-repeat scroll center -22px transparent;
+	height: 300px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.a-logo {
-
-
-
-
-
-
-
+#logo-header-eventos {
+	background: url("imagens/logo-vox-branco.png") no-repeat scroll 0 center transparent;
 	width: 160px;
-
-
-
-
-
-
-
 	height: 100px;
-
-
-
-
-
-
-
-	position: absolute;
-
-
-
-
-
-
-
+	float: left;
+    margin: 40px 0 0 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#logo-header-eventos:hover {
+	background: url("imagens/logo-vox-branco.png") no-repeat scroll -165px 0 transparent;
+}
+#img-personas-eventos {
+	background: url(imagens/bg-personagens.jpg) no-repeat center bottom;
+	width: 960px;
+	height: 257px;
+	margin: 60px auto 0 auto;
+}
+#img-personas-eventos img {
+	margin: 0 0 0 182px;
+}
+#resumo-eventos {
+	margin: 0 30px 30px 30px;
+}
+#conteudo-eventos {
+	background: url(imagens/bg-ocirco.jpg) repeat-y #f7f0c3;
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+	color: #1e0400;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+    padding-bottom: 30px;
+}
+#conteudo-eventos p {
+	color: #1e0400;
+	margin: 3px 0 10px 3px;
+}
+#esquerda-eventos {
+    background: url("imagens/bg-conteudo-ocirco.jpg") no-repeat scroll 0 0 #F7F0C3;
+    float: left;
+    min-height: 500px;
+    width: 640px;
+}
+#titulo-eventos {
+	background: url(imagens/titulo-eventos.png);
+	width: 245px;
+	height: 57px;
+	margin: 30px; 0 20px 30px;
+}
+#cada-eventos {
+	width: 570px;
+	height: 150px;
+	margin: 0 0 40px 30px;
+}
+#thumb-eventos {
+	width: 280px;
+	height: 130px;
+	float: left;
+}
+#thumb-eventos img {
+	border: 4px solid #f7f0c3;
+}
+#thumb-eventos img:hover {
+	border: 4px solid #990000;
+}
+#titulos-cada-eventos {
+	float: left;
+	width: 270px;
+	margin: 0 0 0 20px;
+}
+#titulos-cada-eventos h2 {
+	margin: 4px 0 8px 0;
+}
+#titulos-cada-eventos a {
+	color: #a50408;
+	text-decoration: none;
+}
+#titulos-cada-eventos a:hover {
+	color: #3f0504;
+	text-decoration: underline;
+}
+#excerpt-eventos {
+    float: left;
+    margin: 0 0 0 24px;
+    width: 260px;
+}
+#mais-eventos {
+	float: right;
+	width: 100px;
+	height: 20px;
+	margin: 0 0 0 0;
+	text-align: right;
+}
+#mais-eventos a {
+	color: #a50408;
+	text-decoration: none;
+}
+#mais-eventos a:hover {
+	color: #3f0504;
+	text-decoration: underline;
+}
+.post-eventos {
+	margin: 10px 0 20px 15px;
+	width: 600px;
+}
+.post-eventos a {
+	margin: 0;
+}
+.post-eventos img {
+	border: 4px solid #eee8d2;
+}
+.post-eventos img:hover {
+	border: 4px solid #900;
+}
+.saibamais-post-eventos {
+}
+#rodape-conteudo-eventos {
+	width: 640px;
+}
+#linha-top-rodape-conteudo-eventos {
+    background: url("imagens/linha.png") no-repeat scroll 0 0 transparent;
+    height: 13px;
+    margin: 10px 0 20px 40px;
+    width: 549px;
+}
+/* Sidebar O Circo */
+#sidebar-eventos {
+    background: url("imagens/bg-sidebar-ocirco.jpg") no-repeat scroll center top #FAF2CD;
+    float: right;
+    min-height: 443px;
+    width: 320px;
+}
+/* Todo o CSS da Prateleira encontra-se no /estilos/prateleira.css
+O c�digo abaixo serve para posicionar a prateleira de acordo com cada sidebar */
+#prateleira-eventos {
+    margin: 30px 0 10px 53px;
+    width: 280px;
+}
+#agenda-eventos {
+	margin: 0 0 0 38px;
+}
+#titulo-agenda-eventos {
+	width: 249px;
+	height: 92px;
+}
+#bg-eventos-agenda {
+    background: none repeat scroll 0 0 #FBF7E8;
+    margin: 0 0 10px 11px;
+    width: 236px;
+	padding-bottom: 1px;
+}
+.evento-agenda {
+    margin: -3px 10px 25px;
+    width: 91%;
+}
+.data-evento-agenda {
+}
+#bg-eventos-agenda .data-evento-agenda p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	letter-spacing: -1px;
+	text-transform: uppercase;
+	margin: 0;
+}
+#bg-eventos-agenda .titulo-evento-agenda {
+	font-weight: bold;
+	color: #4D0405;
+	margin: 5px 0 0 0; 
+}
+#bg-eventos-agenda .desc-evento-agenda p {
+    color: #333333;
+    font-size: 10px;
+    line-height: 13px;
+    margin: 0;
+}
+#assine-news-eventos {
+    margin: 30px 0 20px 56px;
+    width: 230px;
+}
+.a-assine-news-eventos {
+    background: url("imagens/btn-newsletter.png") no-repeat scroll 0 0 transparent;
+	height: 79px;
+	width: 230px;
+	position: absolute;
+}
+#mostra {
+    background: url("imagens/btn-newsletter.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 79px;
+    text-indent: -9999px;
+    width: 230px;
+	cursor: pointer;
+}
+#oculto {
+	display: none;
+}
+.wpcf7-text {
+    background: none repeat scroll 0 0 #FBF7E8;
+    border: 2px solid #877839;
+    color: #082936;
+    font-size: 13px;
+    height: 20px;
+    padding: 3px;
+    width: 210px;
+}
+.desc {
+    color: #666666;
+    font-size: 10px;
+    font-style: italic;
+}
+#redes-sociais-eventos {
+	height: 77px;
+	width: 230px;
+	margin: 10px 0 20px 47px;
+}
+.a-redes-sociais-eventos {
+    background: url("imagens/btn-redes-sociais.png") no-repeat scroll 0 0 transparent;
+	height: 77px;
+	width: 230px;
+	position: absolute;
+}
+/* Footer */
+#direita-footer .red, .red {
+	color: #86090B;
+}
+#direita-footer a.red:hover {
+	color: #000;
+}
+#centro-footer-eventos {
+	float: left;
+	background: url(imagens/vox-vermelho_rodape.png) no-repeat;
+	width: 65px;
+	height: 45px;
+}
+#rodape-eventos {
+	width: 960px;
+	overflow: hidden;
+	height: 70px;
+    margin: 40px auto 10px;
+}
+#titulo-rodape-eventos {
+	width: 202px;
+	height: 38px;
+	margin: 20px 0 0 20px;
+}
+#titulo-rodape-eventos img {
+}
+/* =BLOG
+-------------------------------------------------------------- */
+.single-post {
+	background: url("imagens/bg-blog.jpg") no-repeat fixed center -135px #efefef !important;
+}
+.page-template-page-blog-php {
+	background: url("imagens/bg-blog.jpg") no-repeat fixed center -135px #efefef !important;
+}
+/* COISAS DE MENU */
+#access-vermelho a {
+    color: #b46868;
+    display: block;
+    line-height: 40px;
+    padding: 0 10px;
+    text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+}
+#access-vermelho a:hover {
+   	color: #000;
+	font-size: 13px;
+	text-decoration: none;
+}
+#access-vermelho a:active {
+    color: #FFF;
+}
+#access-vermelho li {
+    display: inline;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0;
+    text-transform: uppercase;
+}
+.sub-menu {
+    background-color: #340304;
+}
+.sub-menu a {
+	color: #FCFCFC;
+}
+#access-vermelho ul {
+    margin-top: 8px;
+    padding: 0;
+}
+#access-vermelho .menu-header, div.menu {
+   	float: right;
+	margin: 33px 0 0 0;
+}
+#access-vermelho .menu-header ul, div.menu ul {
+    list-style: none outside none;
+    margin: 0;
+}
+#access-vermelho .menu-header li, div.menu li {
+    float: left;
+    position: relative;
+}
+#access-vermelho ul ul {
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+    display: none;
+    float: left;
+    left: 3px;
+    position: absolute;
+    top: 40px;
+    z-index: 99999;
+}
+#access-vermelho ul ul li {
+}
+#access-vermelho ul ul ul {
+    left: 100%;
+    top: 0;
+}
+#access-vermelho ul ul a {
+    background: none repeat scroll 0 0 #340304;
+    height: auto;
+    line-height: 1em;
+    padding: 10px;
+}
+#access-vermelho li:hover > a, #access ul ul *:hover > a {
+    color: #470000;
+}
+#access-vermelho .sub-menu a {
+    color: #e4e4e4;
+}
+#access-vermelho ul li:hover > ul {
+    display: block;
+	min-width: 140px;
+}
+#access-vermelho ul li.current_page_item > a, #access ul li.current-menu-ancestor > a, #access ul li.current-menu-item > a, #access ul li.current-menu-parent > a {
+    background: none repeat scroll 0 0 #340304;
+	color: #F1EDCD;
+}
+* html #menu ul li.current_page {
+}
+/* FECHA COISAS DE MENU */ 
+/* HEADER BLOG */
+#header-blog {
+	width: 960px;
+	height: 130px;
+	margin: 0 auto 10px auto;
+	padding: 40px 0 0 0;
+}
+#logo-header-vermelho {
+	background: url("imagens/logo-vox-vermelho.png") no-repeat scroll 0 center transparent;
+	width: 160px;
+	height: 100px;
+	float: left;
+}
+#logo-header-vermelho:hover {
+	background: url("imagens/logo-vox-vermelho.png") no-repeat scroll -165px 0 transparent;
+}
 
 .menu-header {
-
-
-
-
-
-
-
 	float: left;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #carta-contato-vermelho {
-
-
-
-
-
-
-
 	width: 33px;
-
-
-
-
-
-
-
 	height: 26px;
-
-
-
-
-
-
-
 	background: url(imagens/carta-vermelha.png) left no-repeat;
-
-
-
-
-
-
-
 	float: right;
-
-
-
-
-
-
-
 	margin: 42px 0 0 12px;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #carta-contato-vermelho:hover {
-
-
-
-
-
-
-
 	background: url(imagens/carta-vermelha.png) -31px 0 no-repeat;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .a-carta {
-
-
-
-
-
-
-
 	width: 34px;
-
-
-
-
-
-
-
 	height: 26px;
-
-
-
-
-
-
-
 	position: absolute;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #conteudo-blog {
-
-
-
-
-
-
-
 	background: url("imagens/bg-conteudo-blog-repeat.jpg") repeat-y scroll 8px top transparent;
-
-
-
-
-
-
-
     color: #1E0400;
-
-
-
-
-
-
-
     font-family: Verdana,Geneva,sans-serif;
-
-
-
-
-
-
-
     font-size: 12px;
-
-
-
-
-
-
-
     line-height: 20px;
-
-
-
-
-
-
-
     margin: 0 auto;
-
-
-
-
-
-
-
     overflow: hidden;
-
-
-
-
-
-
-
     padding-bottom: 20px;
-
-
-
-
-
-
-
     width: 980px;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #conteudo-blog p {
-
-
-
-
-
-
-
 	color: #1e0400;
-
-
-
-
-
-
-
 	margin: 3px 0 10px 3px;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #sombra-esquerda-blog {
-
-
-
-
-
-
-
 	width: 8px;
-
-
-
-
-
-
-
 	height: 555px;
-
-
-
-
-
-
-
 	float: left;
-
-
-
-
-
-
-
 	background: url(imagens/sombra-esquerda-blog.png) no-repeat;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #sombra-direita-blog {
-
-
-
-
-
-
-
 	width: 12px;
-
-
-
-
-
-
-
 	height: 555px;
-
-
-
-
-
-
-
 	float: right;
-
-
-
-
-
-
-
 	background: url(imagens/sombra-direita-blog.png) no-repeat;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #esquerda-blog {
-
-
-
-
-
-
-
 	background: url(imagens/bg-conteudo-blog.jpg) #f6f6f6 no-repeat;
-
-
-
-
-
-
-
 	float: left;
-
-
-
-
-
-
-
 	width: 640px;
-
-
-
-
-
-
-
     padding-top: 40px;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #titulo-blog {
-
-
-
-
-
-
-
 	background: url(imagens/titulo-blog-2.png) no-repeat;
-
-
-
-
-
-
-
 	width: 130px;
-
-
-
-
-
-
-
 	height: 100px;
-
-
-
-
-
-
-
     margin: 0 0 20px 265px;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .post-blog {
-
-
-
-
-
-
-
 	margin: 10px 0 20px 35px;
-
-
-
-
-
-
-
 	width: 595px;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
 .post-blog h1 {
-
-
-
-
-
-
-
     color: #8F0000;
-
-
-
-
-
-
-
     font-family: 'Sancreek', Arial, sans-serif;
-
-
-
-
-
-
-
     font-size: 2em;
-
-
-
-
-
-
-
     letter-spacing: -1px;
-
-
-
-
-
-
-
     text-decoration: none;
-
-
-
-
-
-
-
     line-height: 1.4em;
-
-
-
 	
-
-
-
 }
-
-
-
-
-
-
-
 #conteudo-blog .titulo-blog a {
-
-
-
-
-
-
-
     color: #8F0000;
-
-
-
     font-family: 'Sancreek', Arial, sans-serif;
-
-
-
     font-size: 2em;
-
-
-
     letter-spacing: -1px;
-
-
-
     text-decoration: none;
-
-
-
     line-height: 1.4em;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
 .post-blog .time {
-
-
-
-
-
-
-
 	color: #666;
-
-
-
 	font-size: 11px;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
 #post-blog .cap {
-
-
-
-
-
-
-
 	text-transform: capitalize;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
 .linha-blog {
-
-
-
-
-
-
-
     background: url("imagens/linha.png") no-repeat scroll 0 0 transparent;
-
-
-
     height: 13px;
-
-
-
     margin: 30px 0 30px 17px;
-
-
-
     width: 549px;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .saibamais-post-ocirco {
-
-
-
-
-
-
-
 	margin: 0;
-
-
-
 	padding: 0;
-
-
-
 	width: auto;
-
-
-
 	height: 20px;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
 #rodape-ocirco {
-
-
-
-
-
-
-
 	width: 960px;
-
-
-
 	height: 300px;
-
-
-
 	background: url(imagens/bg-rodape-ocirco.jpg) -2px 0 no-repeat;
-
-
-
 	margin: 0 auto;
-
-
-
 	overflow: hidden;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #titulo-rodape-ocirco {
-
-
-
-
-
-
-
 	width: 202px;
-
-
-
 	height: 38px;
-
-
-
 	margin: 20px 0 0 20px;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #titulo-rodape-ocirco img {
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #area-plugin-galeria {
-
-
-
-
-
-
-
 	background: none repeat scroll 0 0 #EEEECC;
-
-
-
 	height: 110px;
-
-
-
 	margin: 15px auto 0;
-
-
-
 	width: 900px;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* SIDEBAR BLOG */
-
-
-
-
-
-
-
 #sidebar-blog {
-
-
-
-
-
-
-
 	background: url(imagens/bg-sidebar-blog.jpg) #f2f2f2 no-repeat;
-
-
-
     float: right;
-
-
-
     min-height: 443px;
-
-
-
     padding-top: 40px;
-
-
-
     width: 320px;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
 /* Todo o CSS da Prateleira encontra-se no /estilos/prateleira.css
-
-
-
 O c�digo abaixo serve para posicionar a prateleira de acordo com cada sidebar */
-
-
-
 #prateleira-blog {
-
-
-
     margin: 5px 0 10px 53px;
-
-
-
     width: 280px;
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .hack-sidebar {
-
-
-
-
-
-
-
 	width: 100%;
-
-
-
 	height: 1px;
-
-
-
 	clear: both;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #agenda-ocirco {
-
-
-
-
-
-
-
 	margin: 0 0 0 38px;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #titulo-agenda-ocirco {
-
-
-
-
-
-
-
 	width: 249px;
-
-
-
 	height: 92px;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #bg-eventos-agenda {
-
-
-
-
-
-
-
     background: none repeat scroll 0 0 #FBF7E8;
-
-
-
     margin: 0 0 10px 11px;
-
-
-
     width: 236px;
-
-
-
 	padding-bottom: 1px;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .evento-agenda {
-
-
-
-
-
-
-
     margin: -3px 10px 25px;
-
-
-
     width: 91%;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .data-evento-agenda {
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #bg-eventos-agenda .data-evento-agenda p {
-
-
-
-
-
-
-
 	font-family: Arial, Helvetica, sans-serif;
-
-
-
-
-
-
-
 	font-size: 25px;
-
-
-
-
-
-
-
 	letter-spacing: -1px;
-
-
-
-
-
-
-
 	text-transform: uppercase;
-
-
-
-
-
-
-
 	margin: 0;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #bg-eventos-agenda .titulo-evento-agenda {
-
-
-
-
-
-
-
 	font-weight: bold;
-
-
-
-
-
-
-
 	color: #4D0405;
-
-
-
-
-
-
-
 	margin: 5px 0 0 0; 
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #bg-eventos-agenda .desc-evento-agenda p {
-
-
-
-
-
-
-
     color: #333333;
-
-
-
-
-
-
-
     font-size: 10px;
-
-
-
-
-
-
-
     line-height: 13px;
-
-
-
-
-
-
-
     margin: 0;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #assine-news-ocirco {
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #redes-sociais-ocirco {
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #direita-footer .red, .red {
-
-
-
-
-
-
-
 	color: #86090B;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #direita-footer a.red:hover {
-
-
-
-
-
-
-
 	color: #000;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #centro-footer-blog {
-
-
-
-
-
-
-
 	float: left;
-
-
-
-
-
-
-
 	background: url(imagens/vox-vermelho_rodape.png) no-repeat;
-
-
-
-
-
-
-
 	width: 65px;
-
-
-
-
-
-
-
 	height: 45px;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
 /* =No Sidebar
-
-
-
 -------------------------------------------------------------- */
-
-
-
-
-
-
-
 .page-template-onecolumn-page-php {
-
-
-
 	background: url(imagens/bg-vermelho-liso.jpg) no-repeat top center fixed #480405 !important;
-
-
-
 }
-
-
-
-
-
-
-
 #center-pages {
-
-
-
-
-
-
-
    background: url("imagens/bg-conteudo-ocirco.jpg") no-repeat scroll 0 0 #F7F0C3;
-
-
-
     margin: 0 auto 20px;
-
-
-
     min-height: 400px;
-
-
-
     padding-top: 1px;
-
-
-
 	padding-bottom: 30px;
-
-
-
     width: 640px;
-
-
-
 	font-family: Verdana,Geneva,sans-serif;
-
-
-
     font-size: 12px;
-
-
-
     line-height: 20px;
-
-
-
 	}
-
-
-
-
-
-
-
 /* = CONTATOS
-
-
-
 -------------------------------------------------------------- */
-
-
-
-
-
-
-
-
-
-
-
 .page-contatos {
-
-
-
 	background: url(imagens/bg-eventos.jpg) no-repeat top center fixed #480405 !important;
-
-
-
 }
-
-
-
-
-
-
-
 #access-contatos {
-
-
-
 	float: right;
-
-
-
 	height: 30px;
-
-
-
 	margin: 130px 0 0 0;
-
-
-
 }
-
-
-
-
-
-
-
 #access-contatos li {
-
-
-
 	display: inline;
-
-
-
 	margin: 0 10px;
-
-
-
 }
-
-
-
-
-
-
-
 #access-contatos ul {
-
-
-
 	margin: 4px 0 0 0;
-
-
-
 }
-
-
-
-
-
-
-
 #access-contatos a {
-
-
-
 	color: #f1edcd;
-
-
-
 	font-family: Arial, Helvetica, sans-serif;
-
-
-
 	text-transform: uppercase;
-
-
-
 	font-size: 13px;
-
-
-
 	text-decoration: none;
-
-
-
 }
-
-
-
-
-
-
-
 #access-contatos a:hover {
-
-
-
 	color: #FFF;
-
-
-
 	text-decoration: underline;
-
-
-
 }
-
-
-
-
-
-
-
 #access-contatos .menu-header {
-
-
-
 	float: left;
-
-
-
 }
-
-
-
-
-
-
-
 #header-contatos {
-
-
-
 	width: 960px;
-
-
-
 	margin: 0 auto 0 auto;
-
-
-
 	height: 231px;
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
 #logo-header-contatos {
-
-
-
 	background: url(imagens/vox-branco.png) no-repeat;
-
-
-
 	width: 199px;
-
-
-
 	height: 140px;
-
-
-
 	float: left;
-
-
-
 	margin: 35px 0 0 0;
-
-
-
 }
-
-
-
-
-
-
-
 #conteudo-contatos {
-
-
-
 	background: url(imagens/bg-contatos.jpg) #f7f0c3;
-
-
-
 	width: 960px;
-
-
-
-	height: 600px;
-
-
-
+	height: 620px;
 	margin: 0 auto;
-
-
-
 	overflow: hidden;
-
-
-
 	color: #1e0400;
-
-
-
 	font-family: Verdana, Geneva, sans-serif;
-
-
-
 	font-size: 12px;
-
-
-
 	line-height: 20px;
-
-
-
 }
-
-
-
-
-
-
-
 #sombra-contatos {
-
-
-
     padding-bottom: 10px;
-
-
-
 	background: url(imagens/sombra-bg-contatos.png) no-repeat;
-
-
-
 	width: 960px;
-
-
-
 	height: 31px;
-
-
-
 }
-
-
-
-
-
-
-
 #conteudo-contatos p {
-
-
-
 	color: #1e0400;
-
-
-
 	margin: 3px 0 10px 3px;
-
-
-
 }
-
-
-
-
-
-
-
 #esquerda-contatos {
-
-
-
     float: left;
-
-
-
     min-height: 500px;
-
-
-
     width: 640px;
-
-
-
 }
-
-
-
-
-
-
-
 #titulo-contatos {
-
-
-
 	background: url(imagens/titulo-contatos.png);
-
-
-
 	width: 197px;
-
-
-
 	height: 48px;
-
-
-
-	margin: 30px; 0 20px 30px;
-
-
-
+	margin: 30px 0 10px 30px;
 }
-
-
-
-
-
-
-
 #form-contatos p {
-
-
-
 	color: #4e1f00;
-
-
-
 	margin: 0 0 10px 121px;
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
 #form-c {
-
-
-
     height: 350px;
-
-
-
     margin: 10px 10px 10px 40px;
-
-
-
     width: 450px;
-
-
-
 }
-
-
-
-
-
-
-
 #form-contatos .form-nome {
-
-
-
 	float: left;
-
-
-
 	margin: 6px 0 0 24px;
-
-
-
 	color: #4e1f00;
-
-
-
 	font-weight: bold;
-
-
-
 }
-
-
-
-
-
-
-
 #form-contatos .campo-nome {
-
-
-
 	float: left;
-
-
-
 	margin: 0 0 10px 10px;
-
-
-
 }
-
-
-
-
-
-
-
 #form-contatos .form-email {
-
-
-
 	float: left;
-
-
-
 	margin: 6px 0 0 20px;
-
-
-
 	clear: both;
-
-
-
 	color: #4e1f00;
-
-
-
 	font-weight: bold;
-
-
-
 }
-
-
-
-
-
-
-
 #form-contatos .campo-email {
-
-
-
 	float: left;
-
-
-
 	margin: 0 0 10px 10px;
-
-
-
 }
-
-
-
-
-
-
-
 #form-contatos .form-telefone {
-
-
-
 	float: left;
-
-
-
 	margin: 6px 0 0 14px;
-
-
-
 	clear: both;
-
-
-
 	color: #4e1f00;
-
-
-
 	font-weight: bold;
-
-
-
 }
-
-
-
-
-
-
-
 #form-contatos .campo-mensagem {
-
-
-
 	float: left;
-
-
-
 	margin: 0 0 10px 10px;
-
-
-
 }
-
-
-
-
-
-
-
 #form-contatos .form-mensagem {
-
-
-
 	float: left;
-
-
-
 	margin: 6px 0 0 0;
-
-
-
 	clear: both;
-
-
-
 	color: #4e1f00;
-
-
-
 	font-weight: bold;
-
-
-
 }
-
-
-
-
-
-
-
 #form-contatos .campo-telefone {
-
-
-
 	float: left;
-
-
-
 	margin: 0 0 10px 10px;
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #form-contatos .btn-enviar {
-
-
-
 	float: right;
-
-
-
 	clear: both;
-
-
-
     margin: 0 31px 10px 10px;
-
-
-
 }
-
-
-
-
-
-
-
-#form-contatos .wpcf7-submit {
-
-
-
-	background: url(imagens/btn-enviar.png);
-
-
-
-	border: 0;
-
-
-
-	width: 65px;
-
-
-
-	height: 31px;
-
-
-
-	text-indent: -9999px;
-
-
-
-	cursor: pointer;
-
-
-
-}
-
-
-
-
-
-
-
-#form-contatos textarea {
-
-
-
+#form-contatos input[type="text"],
+textarea {
 	background: none repeat scroll 0 0 #fff6d5;
-
-
-
     border: 2px solid #d5b778;
-
-
-
     color: #082936;
-
-
-
     font-size: 13px;
-
-
-
     padding: 3px;
-
-
-
     width: 310px;
+}
 
-
-
+.contact-form {
+/*	margin-left: 121px; */
+	color: #4E1F00;
+}
+.contact-submit {
 	float: right;
-
-
-
+	clear: both;
+    margin: 0 198px 11px 10px !important;
 }
-
-
-
-
-
-
-
-#form-contatos .wpcf7-text {
-
-
-
-    width: 310px;
-
-
-
-	background: none repeat scroll 0 0 #fff6d5;
-
-
-
-    border: 2px solid #d5b778;
-
-
-
+#form-contatos textarea {
+	height: 150px !important;
+    width: 310px !important;
 }
-
-
-
-
-
-
-
-.wpcf7-text {
-
-
-
-    background: none repeat scroll 0 0 #FBF7E8;
-
-
-
-    border: 2px solid #877839;
-
-
-
-    color: #082936;
-
-
-
-    font-size: 13px;
-
-
-
-    height: 20px;
-
-
-
-    padding: 3px;
-
-
-
-    width: 210px;
-
-
-
-}
-
-
-
-
-
-
-
-/* Footer */
-
-
-
-#direita-footer .red, .red {
-
-
-
-	color: #86090B;
-
-
-
-}
-
-
-
-
-
-
-
-#direita-footer a.red:hover {
-
-
-
-	color: #000;
-
-
-
-}
-
-
-
-
-
-
-
-#centro-footer-contatos {
-
-
-
-	float: left;
-
-
-
-	background: url(imagens/vox-vermelho_rodape.png) no-repeat;
-
-
-
+#form-contatos .wpcf7-submit {
+	background: url(imagens/btn-enviar.png);
+	border: 0;
 	width: 65px;
-
-
-
+	height: 31px;
+	text-indent: -9999px;
+	cursor: pointer;
+}
+#contact-form-692 {
+	margin: 0 0 0 121px;
+}
+#form-contatos .wpcf7-text {
+    width: 310px;
+	background: none repeat scroll 0 0 #fff6d5;
+    border: 2px solid #d5b778;
+}
+.wpcf7-text {
+    background: none repeat scroll 0 0 #FBF7E8;
+    border: 2px solid #877839;
+    color: #082936;
+    font-size: 13px;
+    height: 20px;
+    padding: 3px;
+    width: 210px;
+}
+/* Footer */
+#direita-footer .red, .red {
+	color: #86090B;
+}
+#direita-footer a.red:hover {
+	color: #000;
+}
+#centro-footer-contatos {
+	float: left;
+	background: url(imagens/vox-vermelho_rodape.png) no-repeat;
+	width: 65px;
 	height: 45px;
-
-
-
 }
-
-
-
-
-
-
-
 #rodape-contatos {
-
-
-
 	width: 960px;
-
-
-
 	overflow: hidden;
-
-
-
 	height: 70px;
-
-
-
     margin: 40px auto 10px;
-
-
-
 }
-
-
-
-
-
-
-
 #titulo-rodape-contatos {
-
-
-
 	width: 202px;
-
-
-
 	height: 38px;
-
-
-
 	margin: 20px 0 0 20px;
-
-
-
 }
-
-
-
-
-
-
-
 #titulo-rodape-contatos img {
-
-
-
 }
-
-
-
-
-
-
-
 /* =AGENDA
-
-
-
 -------------------------------------------------------------- */
-
-
-
-
-
-
-
 #evnt-agenda {
-
-
-
     height: auto;
-
-
-
     margin: 0 auto 30px;
-
-
-
     padding: 1px;
-
-
-
     width: 100%;
-
-
-
 }
-
-
-
-
-
-
-
 #evnt-agenda:hover {
-
-
-
 	background-color: #FFFFEE;
-
-
-
 }
-
-
-
-
-
-
-
 #titulo-agenda {
-
-
-
     background: url("imagens/titulo-agenda-simples.png") no-repeat scroll 0 0 transparent;
-
-
-
     height: 52px;
-
-
-
     margin: 30px 0;
-
-
-
     width: 240px;
-
-
-
 }
-
-
-
-
-
-
-
 #dt-agenda {
-
-
-
     background-color: #990000;
-
-
-
 	padding: 5px 10px 2px 5px;
-
-
-
 	margin: 0 0 10px 0;
-
-
-
 	float: left;
-
-
-
 }
-
-
-
-
-
-
-
 #dt-agenda h3 {
-
-
-
     color: #FFFFFF;
-
-
-
     font-family: Arial,Helvetica,sans-serif;
-
-
-
     font-size: 23px;
-
-
-
     font-weight: lighter;
-
-
-
     height: 28px;
-
-
-
     letter-spacing: -1px;
-
-
-
     margin: 0;
-
-
-
     padding: 5px;
-
-
-
     text-transform: uppercase;
-
-
-
 }
-
-
-
-
-
-
-
 #dt-agenda p.hr-agenda {
-
-
-
     font-family: Arial,Helvetica,sans-serif;
-
-
-
     font-size: 18px;
-
-
-
     letter-spacing: -1px;
-
-
-
     text-transform: lowercase;
-
-
-
 	color: #FFF;
-
-
-
 }
-
-
-
-
-
-
-
 #nm-agenda {
-
-
-
 	float: left;
-
-
-
     height: 45px;
-
-
-
     margin: 0 10px 10px;
-
-
-
 }
-
-
-
-
-
-
-
 #nm-agenda h2 {
-
-
-
 	margin: 10px 0 0;
-
-
-
 	vertical-align: middle;
-
-
-
 }
-
-
-
-
-
-
-
 #desc-agenda {
-
-
-
     clear: left;
-
-
-
     margin: 10px;
-
-
-
     width: 100%;
-
-
-
 }
-
-
-
-
-
-
-
 span.negrito {
-
-
-
 	font-weight: bold;
-
-
-
 	margin: 0 0 10px 10px;
-
-
-
 }
-
-
-
-
-
-
-
 #classif-agenda {
-
-
-
     float: right;
-
-
-
     height: 30px;
-
-
-
     margin: -30px 0 0;
-
-
-
     width: 30px;
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
 /* =FOOTER
-
-
-
 -------------------------------------------------------------- */
-
-
-
-
-
-
-
-
-
-
 
 #footer {
-
-
-
 	width: 900px;
-
-
-
 	height: 70px;
-
-
-
 	margin: 40px auto 10px auto;
-
-
-
+	float: left;
 }
-
-
-
-
-
-
-
 #footer p {
-
-
-
 	line-height: 14px;
-
-
-
 }
-
-
-
-
-
-
+#footer a {
+	color:#fff;
+}
 
 #esquerda-footer {
-
-
-
 	color: #fff;
-
-
-
 	font-family: Verdana, Geneva, sans-serif;
-
-
-
 	font-size: 10px;
-
-
-
 	float: left;
-
-
-
-	width: 195px;
-
-
-
+	width: 206px;
 	text-align: right;
-
-
-
-	margin: 15px 25px 0 175px;
-
-
-
+	margin: 9px 38px 0 65px;
 }
-
-
-
-
-
-
 
 #centro-footer {
-
-
-
 	float: left;
-
-
-
 	background: url(imagens/vox-branco_rodape.png) no-repeat;
-
-
-
 	width: 65px;
-
-
-
 	height: 45px;
-
-
-
 }
-
-
-
-
-
-
-
 #direita-footer {
-
-
-
 	float: left;
-
-
-
 	font-family: Verdana, Geneva, sans-serif;
-
-
-
 	font-size: 10px;
-
-
-
 	color: #FFF;
-
-
-
-	margin: 10px 0 0 25px;
-
-
-
+	margin: 0 0 30px 23px;
+	background: url(imagens/petrobras_rodape.png) no-repeat;
+	width: 510px;
+	height: 90px;
 }
-
-
-
-
-
-
 
 #direita-footer a {
-
-
-
 	color: #FFF;
-
-
-
 	text-decoration: none;
-
-
-
 }
-
-
-
-
-
-
-
 #direita-footer a:hover {
-
-
-
 	color: #F1EDCD;
-
-
-
 	text-decoration: underline;
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* =FOTOS E VIDEOS
-
-
-
 -------------------------------------------------------------- */
-
-
-
-
-
-
-
 #fotos-videos {
-
-
-
     float: left;
-
-
-
     height: 70px;
-
-
-
     margin: 50px 120px 30px;
-
-
-
     width: 400px;
-
-
-
 }
-
-
-
-
-
-
-
 #btn-fotos {
-
-
-
     height: 65px;
-
-
-
     width: 180px;
-
-
-
 	float: left;
-
-
-
 }
-
-
-
-
-
-
-
 .a-btn-fotos {
-
-
-
     background: url("imagens/fotos-videos.png") no-repeat scroll -30px -10px transparent;
-
-
-
     height: 50px;
-
-
-
     position: absolute;
-
-
-
     width: 175px;
-
-
-
 }
-
-
-
-
-
-
-
 .span-btn-fotos {
-
-
-
     background: url("imagens/fotos-videos.png") no-repeat scroll -30px -112px transparent;
-
-
-
     height: 50px;
-
-
-
     margin-top: 3px;
-
-
-
     position: absolute;
-
-
-
     width: 175px;
-
-
-
 	
-
-
-
 }
-
-
-
-
-
-
-
 .a-btn-fotos:hover {
-
-
-
 	background: url(imagens/fotos-videos.png) no-repeat scroll -30px -63px transparent;
-
-
-
 }
-
-
-
-
-
-
-
 #btn-videos {
-
-
-
     float: left;
-
-
-
     height: 65px;
-
-
-
     width: 220px;
-
-
-
 }
-
-
-
-
-
-
-
 .a-btn-videos {
-
-
-
     background: url("imagens/fotos-videos.png") repeat scroll -205px 109px transparent;
-
-
-
     height: 50px;
-
-
-
     position: absolute;
-
-
-
     width: 220px;
-
-
-
 }
-
-
-
-
-
-
-
 .span-btn-videos {
-
-
-
     height: 50px;
-
-
-
     position: absolute;
-
-
-
     width: 220px;
-
-
-
 	background: url("imagens/fotos-videos.png") repeat scroll -205px 160px transparent;
-
-
-
 }
-
-
-
-
-
-
-
 .a-btn-videos:hover {
-
-
-
 background: url("imagens/fotos-videos.png") no-repeat scroll -205px -165px transparent;
-
-
-
 }
-
-
-
-
-
-
-
 /* =GERAL
-
-
-
 -------------------------------------------------------------- */
-
-
-
-
-
-
-
 /* COISAS DE MENU */
-
-
-
-
-
-
-
 img {
-
-
-
 	border: 0;
-
-
-
 }
-
-
-
-
-
-
-
 #access a {
-
-
-
    	color: #dedabd;
-
-
-
 	font-family: Arial, Helvetica, sans-serif;
-
-
-
 	text-transform: uppercase;
-
-
-
 	font-size: 13px;
-
-
-
 	text-decoration: none;
-
-
-
     display: block;
-
-
-
     line-height: 40px;
-
-
-
     padding: 0 10px;
-
-
-
+	z-index: 99999; /* Hack para o menu da Home sobrepor as lâmpadas */
 }
-
-
-
-
-
-
-
 #access a:hover {
-
-
-
    	color: #FFF;
-
-
-
 	font-family: Arial, Helvetica, sans-serif;
-
-
-
 	text-transform: uppercase;
-
-
-
 	font-size: 13px;
-
-
-
 	text-decoration: none;
-
-
-
 }
-
-
-
-
-
-
-
 #access a:active {
-
-
-
-
-
-
-
     color: #FFFFFF;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
 #access li {
-
-
-
-
-
-
-
     display: inline;
-
-
-
-
-
-
-
     font-size: 13px;
-
-
-
-
-
-
-
     font-weight: bold;
-
-
-
-
-
-
-
     padding: 0;
-
-
-
-
-
-
-
     text-transform: uppercase;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
 .sub-menu {
-
-
-
-
-
-
-
     background-color: #340304;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
 #access ul {
-
-
-
-
-
-
-
     margin-top: 8px;
-
-
-
-
-
-
-
     padding: 0;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
 #access .menu-header, div.menu {
-
-
-
-
-
-
-
    	float: right;
-
-
-
-
-
-
-
 	margin: 33px 0 0 0;
-
-
-
-
-
-
-
+	width: 555px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #access .menu-header ul, div.menu ul {
-
-
-
-
-
-
-
     list-style: none outside none;
-
-
-
-
-
-
-
     margin: 0;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
 #access .menu-header li, div.menu li {
-
-
-
-
-
-
-
     float: left;
-
-
-
-
-
-
-
+    margin-right: 1%;	
     position: relative;
-
-
-
-
-
-
-
+	z-index: 99999; /* Hack para o menu da Home sobrepor as lâmpadas */
 }
-
-
-
-
-
-
-
-
-
-
-
 #access ul ul {
-
-
-
-
-
-
-
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-
-
-
-
-
-
-
     display: none;
-
-
-
-
-
-
-
     float: left;
-
-
-
-
-
-
-
     left: 3px;
-
-
-
-
-
-
-
     position: absolute;
-
-
-
-
-
-
-
     top: 40px;
-
-
-
-
-
-
-
     z-index: 99999;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
 #access ul ul li {
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
 #access ul ul ul {
-
-
-
-
-
-
-
     left: 100%;
-
-
-
-
-
-
-
     top: 0;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
 #access ul ul a {
-
-
-
-
-
-
-
     background: none repeat scroll 0 0 #340304;
-
-
-
-
-
-
-
     height: auto;
-
-
-
-
-
-
-
     line-height: 1em;
-
-
-
-
-
-
-
     padding: 10px;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
 #access li:hover > a, #access ul ul *:hover > a {
-
-
-
-
-
-
-
     color: #FFF;;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
 #access ul li:hover > ul {
-
-
-
-
-
-
-
     display: block;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
 #access ul li.current_page_item > a, #access ul li.current-menu-ancestor > a, #access ul li.current-menu-item > a, #access ul li.current-menu-parent > a {
-
-
-
-
-
-
-
     background: none repeat scroll 0 0 none;
-
-
-
-
-
-
-
     color: #F1EDCD;;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
 * html #menu ul li.current_page
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* fecha coisas do menu */ 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Geral */
-
-
-
-
-
-
-
-
-
-
-
 h1, h2, h3, h4, h5 {
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 p {
-
-
-
-
-
-
-
 	margin: 3px;
-
-
-
 	padding: 0;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 a {
-
-
-
-
-
-
-
 	margin: 0;
-
-
-
 	padding: 0;
-
-
-
 	color: #990000;
-
-
-
     font-size: 0.9em;
-
-
-
     text-decoration: none;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
 a:hover {
-
-
-
     color: #CC0000;
-
-
-
     text-decoration: underline;
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
 img {
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ul {
-
 	margin: 0;
-
 	padding: 0;
-
 }
-
-
-
 #wrapper {
-
 	width: 1000px;
-
 	margin: 0 auto;
-
 	position: relative;
-
 }
-
-
-
-
-
 /* ------------- MENU ANTIGO ------------
-
-
-
-
-
 #access {
-
-
-
-
-
-
-
 	float: right;
-
-
-
-
-
-
-
 	height: 30px;
-
-
-
-
-
-
-
 	margin: 75px 0 0 0;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #access li {
-
-
-
-
-
-
-
 	display: inline;
-
-
-
-
-
-
-
 	margin: 0 10px;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
 #access ul {
-
-
-
-
-
 	margin: 4px 0 0 0;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #access a {
-
-
-
-
-
-
-
 	color: #f1edcd;
-
-
-
-
-
-
-
 	font-family: Arial, Helvetica, sans-serif;
-
-
-
-
-
-
-
 	text-transform: uppercase;
-
-
-
-
-
-
-
 	font-size: 13px;
-
-
-
-
-
-
-
 	text-decoration: none;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #access a:hover {
-
-
-
-
-
-
-
 	color: #FFF;
-
-
-
-
-
-
-
 	text-decoration: underline;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #access .menu-header {
-
-
-
-
-
-
-
 	float: none;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #carta-contato {
-
-
-
-
-
-
-
 	width: 33px;
-
-
-
-
-
-
-
 	height: 26px;
-
-
-
-
-
-
-
 	background: url(imagens/carta.png) left no-repeat;
-
-
-
-
-
-
-
 	float: right;
-
-
-
-
-
-
-
 	margin: 42px 0 0 12px;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #carta-contato:hover {
-
-
-
-
-
-
-
 	background: url(imagens/carta.png) -31px 0 no-repeat;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .a-carta {
-
-
-
-
-
-
-
 	width: 34px;
-
-
-
-
-
-
-
 	height: 26px;
-
-
-
-
-
-
-
 	position: absolute;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
 #agenda-single {
-
-
-
-
-
-
-
 	margin: 30px 0 0 38px;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Header Pages */
-
-
-
-
-
-
-
 .pages-e-single-cpt {
-
-
-
-
-
-
-
 	background: url(imagens/bg-vermelho-para-claro.jpg) no-repeat top center fixed #480405 !important;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #access-pages {
-
-
-
-
-
-
-
 	float: right;
-
-
-
-
-
-
-
 	height: 30px;
-
-
-
-
-
-
-
 	margin: 130px 0 0 0;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #access-pages li {
-
-
-
-
-
-
-
 	display: inline;
-
-
-
-
-
-
-
 	margin: 0 10px;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #access-pages ul {
-
-
-
-
-
-
-
 	margin: 4px 0 0 0;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #access-pages a {
-
-
-
-
-
-
-
 	color: #f1edcd;
-
-
-
-
-
-
-
 	font-family: Arial, Helvetica, sans-serif;
-
-
-
-
-
-
-
 	text-transform: uppercase;
-
-
-
-
-
-
-
 	font-size: 13px;
-
-
-
-
-
-
-
 	text-decoration: none;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #access-pages a:hover {
-
-
-
-
-
-
-
 	color: #FFF;
-
-
-
-
-
-
-
 	text-decoration: underline;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #access-pages .menu-header {
-
-
-
-
-
-
-
 	float: left;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #carta-pages {
-
-
-
-
-
-
-
 	width: 33px;
-
-
-
-
-
-
-
 	height: 26px;
-
-
-
-
-
-
-
 	background: url(imagens/carta.png) left no-repeat;
-
-
-
-
-
-
-
 	float: left;
-
-
-
-
-
-
-
 	margin: 0 0 0 12px;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #carta-pages:hover {
-
-
-
-
-
-
-
 	background: url(imagens/carta.png) -31px 0 no-repeat;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .a-carta {
-
-
-
-
-
-
-
 	width: 34px;
-
-
-
-
-
-
-
 	height: 26px;
-
-
-
-
-
-
-
 	position: absolute;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #header-pages {
-
-
-
-
-
-
-
 	width: 960px;
-
-
-
-
-
-
-
     height: 130px;
-
-
-
-
-
-
-
     margin: 0 auto 10px;
-
-
-
-
-
-
-
     padding: 40px 0 0;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #logo-header-pages {
-
-
-
-
-
-
-
     background: url("imagens/logo-vox-branco.png") no-repeat scroll 0 center transparent;
-
-
-
-
-
-
-
     float: left;
-
-
-
     height: 100px;
-
-
-
     width: 160px;
-
-
-
 	margin: 0 0 0 35px;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
 #logo-header-pages:hover {
-
-
-
 	background: url("imagens/logo-vox-branco.png") no-repeat scroll -165px 0 transparent;
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #logo-header-branco {
-
-
-
-
-
-
-
 	background: url("imagens/logo-vox-branco.png") no-repeat scroll 0 center transparent;
-
-
-
-
-
-
-
 	width: 160px;
-
-
-
-
-
-
-
 	height: 100px;
-
-
-
-
-
-
-
 	float: left;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #logo-header-branco:hover {
-
-
-
-
-
-
-
 	background: url("imagens/logo-vox-branco.png") no-repeat scroll -165px 0 transparent;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.a-logo {
-
-
-
-
-
-
-
-	width: 160px;
-
-
-
-
-
-
-
-	height: 100px;
-
-
-
-
-
-
-
-	position: absolute;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #conteudo-pages {
-
-
-
-
-
-
-
 	background: url(imagens/bg-ocirco.jpg) repeat-y #f7f0c3;
-
-
-
-
-
-
-
 	width: 960px;
-
-
-
-
-
-
-
 	margin: 0 auto;
-
-
-
-
-
-
-
 	overflow: hidden;
-
-
-
-
-
-
-
 	color: #1e0400;
-
-
-
-
-
-
-
 	font-family: Verdana, Geneva, sans-serif;
-
-
-
-
-
-
-
 	font-size: 12px;
-
-
-
-
-
-
-
 	line-height: 20px;
-
-
-
-
-
-
-
     padding-bottom: 30px;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #conteudo-pages p {
-
-
-
-
-
-
-
 	color: #1e0400;
-
-
-
-
-
-
-
 	margin: 3px 0 10px 3px;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #esquerda-pages {
-
-
-
-
-
-
-
 	background: url(imagens/bg-conteudo-ocirco.jpg) no-repeat #f7f0c3;
-
-
-
-
-
-
-
 	float: left;
-
-
-
-
-
-
-
 	width: 640px;
-
-
-
-
-
-
-
 	min-height: 400px;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
 #titulo-pages {
-
-
-
-
-
-
-
 	width: 243px;
-
-
-
-
-
-
-
 	height: 56px;
-
-
-
-
-
-
-
 	margin: 30px 0 20px 30px;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
 #post-pages {
-
-
-
 	margin: 0 30px;
-
-
-
 	width: 580px;
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #post-pages a {
-
-
-
-
-
-
-
 	color: #900;
-
-
-
-
-
-
-
 	text-decoration: none;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #post-pages a:hover {
-
-
-
-
-
-
-
 	color: #C00;
-
-
-
-
-
-
-
 	text-decoration: underline;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #post-pages h1.entry-title {
-
-
-
-
-
-
-
 	margin: 55px 40px 30px 0;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Sidebar Pages */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #prateleira-pages {
-
-
-
-
-
-
-
     margin: 30px 0 10px 53px;
-
-
-
-
-
-
-
     width: 280px;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Single CPT (Custom Post Type) */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .single-projetos {
-
-
-
-
-
-
-
 	background: url(imagens/bg-eventos.jpg) no-repeat top center fixed #480405;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
 .single-espetaculos{
-
-
-
-
-
-
-
 	background: url(imagens/bg-eventos.jpg) no-repeat top center fixed #480405;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
 .single-eventos {
-
-
-
-
-
-
-
 	background: url(imagens/bg-eventos.jpg) no-repeat top center fixed #480405;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
 #access-single-cpt {
-
-
-
-
-
-
-
 	float: right;
-
-
-
-
-
-
-
 	height: 30px;
-
-
-
-
-
-
-
 	margin: 40px 0 0 0;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #access-single-cpt li {
-
-
-
-
-
-
-
 	display: inline;
-
-
-
-
-
-
-
 	margin: 0 10px;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #access-single-cpt ul {
-
-
-
-
-
-
-
 	margin: 4px 0 0 0;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #access-single-cpt a {
-
-
-
-
-
-
-
 	color: #f1edcd;
-
-
-
-
-
-
-
 	font-family: Arial, Helvetica, sans-serif;
-
-
-
-
-
-
-
 	text-transform: uppercase;
-
-
-
-
-
-
-
 	font-size: 13px;
-
-
-
-
-
-
-
 	text-decoration: none;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #access-single-cpt a:hover {
-
-
-
-
-
-
-
 	color: #FFF;
-
-
-
-
-
-
-
 	text-decoration: underline;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #access-single-cpt .menu-header {
-
-
-
-
-
-
-
 	float: left;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #header-single-cpt {
-
-
-
-
-
-
-
 	width: 960px;
-
-
-
-
-
-
-
 	margin: 0 auto 0 auto;
-
-
-
-
-
-
-
 	background: url(imagens/personagens-eventos.png) no-repeat center top;
-
-
-
-
-
-
-
 	height: 331px;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #logo-header-single-cpt {
-
-
-
-
-
-
-
     background: url("imagens/logo-vox-branco.png") no-repeat scroll 0 center transparent;
-
-
-
-
-
-
-
     float: left;
-
-
-
-
-
-
-
     height: 100px;
-
-
-
-
-
-
-
     width: 160px;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #img-personas-single-cpt {
-
-
-
-
-
-
-
 	background: url(imagens/bg-personagens.jpg) no-repeat center bottom;
-
-
-
-
-
-
-
 	width: 960px;
-
-
-
-
-
-
-
 	height: 257px;
-
-
-
-
-
-
-
 	margin: 60px auto 0 auto;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #img-personas-single-cpt img {
-
-
-
-
-
-
-
 	margin: 0 0 0 182px;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #conteudo-single-cpt {
-
-
-
-
-
-
-
 	background: url(imagens/bg-ocirco.jpg) repeat-y #f7f0c3;
-
-
-
-
-
-
-
 	width: 960px;
-
-
-
-
-
-
-
 	margin: 0 auto;
-
-
-
-
-
-
-
 	overflow: hidden;
-
-
-
-
-
-
-
 	color: #1e0400;
-
-
-
-
-
-
-
 	font-family: Verdana, Geneva, sans-serif;
-
-
-
-
-
-
-
 	font-size: 12px;
-
-
-
-
-
-
-
 	line-height: 20px;
-
-
-
-
-
-
-
     padding-bottom: 30px;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #conteudo-single-cpt p {
-
-
-
-
-
-
-
 	color: #1e0400;
-
-
-
-
-
-
-
 	margin: 3px 0 10px 3px;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #post-single-cpt {
-
-
-
-
-
-
-
 	margin: 0 30px;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #conteudo-single-cpt a {
-
-
-
-
-
-
-
 	color: #900;
-
-
-
 	font-size: 0.9em;
-
-
-
 	text-decoration: none;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #conteudo-single-cpt a:hover {
-
-
-
-
-
-
-
 	color: #C00;
-
-
-
-
-
-
-
 	text-decoration: underline;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #post-single-cpt h1.entry-title {
-
-
-
-
-
-
-
     line-height: 1.2em;
-
-
-
     margin: 45px 40px 30px 10px;
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #esquerda-single-cpt {
-
-
-
-
-
-
-
     background: url("imagens/bg-conteudo-ocirco.jpg") no-repeat scroll 0 0 #F7F0C3;
-
-
-
-
-
-
-
     float: left;
-
-
-
-
-
-
-
     min-height: 600px;
-
-
-
-
-
-
-
     width: 640px;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #titulo-single-cpt {
-
-
-
-
-
-
-
 	background: url(imagens/titulo-eventos.png);
-
-
-
-
-
-
-
 	width: 245px;
-
-
-
-
-
-
-
 	height: 57px;
-
-
-
-
-
-
-
 	margin: 30px; 0 20px 30px;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .post-single-cpt {
-
-
-
-
-
-
-
 	margin: 10px 0 20px 15px;
-
-
-
-
-
-
-
 	width: 600px;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .post-single-cpt a {
-
-
-
-
-
-
-
 	margin: 0;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .post-single-cpt img {
-
-
-
-
-
-
-
 	border: 4px solid #eee8d2;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .post-single-cpt img:hover {
-
-
-
-
-
-
-
 	border: 4px solid #900;
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Single */
-
-
-
 #conteudo-single {
-
-
-
 	background: url("imagens/bg-conteudo-blog-repeat.jpg") repeat-y scroll 8px top transparent;
-
-
-
     color: #1E0400;
-
-
-
     font-family: Verdana,Geneva,sans-serif;
-
-
-
     font-size: 12px;
-
-
-
     line-height: 20px;
-
-
-
     margin: 0 auto;
-
-
-
     overflow: hidden;
-
-
-
     padding-bottom: 20px;
-
-
-
     width: 980px;
-
-
-
 }
-
-
-
-
-
-
-
 #conteudo-single p {
-
-
-
 	color: #1e0400;
-
-
-
 	margin: 3px 0 10px 3px;
-
-
-
 }
-
-
-
-
-
-
-
 #post-single {
-
-
-
 	margin: 0 30px;
-
-
-
 }
-
-
-
-
-
-
-
 #conteudo-single a {
-
-
-
 	color: #900;
-
-
-
 	text-decoration: none;
-
-
-
 }
-
-
-
-
-
-
-
 #conteudo-single a:hover {
-
-
-
 	color: #C00;
-
-
-
 	text-decoration: underline;
-
-
-
 }
-
-
-
-
-
-
-
 #post-single h1.entry-title {
-
-
-
 	margin: 45px 40px 30px 0;
-
-
-
 	line-height: 1.2em;
-
-
-
 }
-
-
-
-
-
-
-
 #esquerda-single {
-
-
-
 	background: url(imagens/bg-conteudo-blog.jpg) #f6f6f6 no-repeat;
-
-
-
 	float: left;
-
-
-
 	width: 640px;
-
-
-
 	min-height: 600px;
-
-
-
 }
-
-
-
-
-
-
-
 #titulo-single {
-
-
-
 	background: url(imagens/titulo-eventos.png);
-
-
-
 	width: 245px;
-
-
-
 	height: 57px;
-
-
-
 	margin: 30px 0 20px 30px;
-
-
-
 }
-
-
-
-
-
-
-
 .post-single {
-
-
-
 	margin: 10px 0 20px 15px;
-
-
-
 	width: 600px;
-
-
-
 }
-
-
-
-
-
-
-
 .post-single a {
-
-
-
 	margin: 0;
-
-
-
 }
-
-
-
-
-
-
-
 .post-single img {
-
-
-
 	border: 4px solid #eee8d2;
-
-
-
 }
-
-
-
-
-
-
-
 .post-single img:hover {
-
-
-
 	border: 4px solid #900;
-
-
-
 }
-
-
-
-
-
-
-
 #conteudo-single #respond {
-
-
-
     background: none repeat scroll 0 0 #e4e4e4;
-
-
-
     margin: 24px 20px;
-
-
-
     overflow: hidden;
-
-
-
     padding: 5px 20px;
-
-
-
     position: relative;
-
-
-
     width: 420px;
-
-
-
 }
-
-
-
-
-
-
-
 #sidebar-single {
-
-
-
 	background: url(imagens/bg-sidebar.jpg) #faf2cd no-repeat;
-
-
-
     float: right;
-
-
-
     min-height: 443px;
-
-
-
     width: 320px;
-
-
-
 	padding-top: 15px;
-
-
-
 }
-
-
-
-
-
-
-
 /* Todo o CSS da Prateleira encontra-se no /estilos/prateleira.css
-
-
-
 O c�digo abaixo serve para posicionar a prateleira de acordo com cada sidebar */
-
-
-
 #prateleira-single {
-
-
-
     margin: 30px 0 10px 53px;
-
-
-
     width: 280px;
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
 /* Toggle Newsletter e Redes */
-
-
-
 #assine-news {
-
-
-
     margin: 30px 0 20px 56px;
-
-
-
     width: 230px;
-
-
-
 }
-
-
-
-
-
-
-
 #mostra {
-
-
-
     background: url("imagens/btn-newsletter.png") no-repeat scroll 0 0 transparent;
-
-
-
     display: block;
-
-
-
     height: 79px;
-
-
-
     text-indent: -9999px;
-
-
-
     width: 230px;
-
-
-
 	cursor: pointer;
-
-
-
 }
-
-
-
-
-
-
-
 #mostra-redes {
-
-
-
     background: url("imagens/btn-redes-sociais.png") no-repeat scroll 0 0 transparent;
-
-
-
 	height: 77px;
-
-
-
     display: block;
-
-
-
     text-indent: -9999px;
-
-
-
     width: 230px;
-
-
-
 	cursor: pointer;
-
-
-
 }
-
-
-
-
-
-
-
 #oculto {
-
-
-
 	display: none;
-
-
-
 }
-
-
-
-
-
-
-
 #oculto-redes {
-
-
-
 	display: none;
-
-
-
 	height: 50px;
-
-
-
 }
-
-
-
-
-
-
-
 .wpcf7-text {
-
-
-
     background: none repeat scroll 0 0 #FBF7E8;
-
-
-
     border: 2px solid #877839;
-
-
-
     color: #082936;
-
-
-
     font-size: 13px;
-
-
-
     height: 20px;
-
-
-
     padding: 3px;
-
-
-
     width: 210px;
-
-
-
 }
-
-
-
-
-
-
-
 #redes-sociais {
-
-
-
 	height: 77px;
-
-
-
 	width: 230px;
-
-
-
 	margin: 10px 0 20px 47px;
-
-
-
 }
-
-
-
-
-
-
-
 .btn-face {
-
-
-
 	float: left;
-
-
-
 	margin: 0 4px 0 15px;
-
-
-
 }
-
-
-
-
-
-
-
 .desc-face {
-
-
-
 	float: left;
-
-
-
 	margin: 0 9px 0 0;
-
-
-
 }
-
-
-
-
-
-
-
 .btn-twitter {
-
-
-
 	float: left;
-
-
-
 	margin: 0 4px 0 15px;
-
-
-
 }
-
-
-
-
-
-
-
 .desc-twitter {
-
-
-
 	float: left;
-
-
-
 	margin: 0 0 0 0;
-
-
-
 }
-
-
-
-
-
-
-
 #hack-30px {
-
-
-
 	width: 100%;
-
-
-
 	height: 30px;
-
-
-
 	overflow: hidden;
-
-
-
 }
-
-
-
-
-
-
-
 a.todos-eventos {
-
-
-
     color: #990000;
-
-
-
     display: block;
-
-
-
     margin: 0 0 10px 10px;
-
-
-
     text-decoration: none;
-
-
-
 }
-
-
-
-
-
-
-
 a.todos-eventos:hover {
-
-
-
 	text-decoration: underline;
+}
 
+/*  estilo home jquery  */
 
+#main-home {top:0;right:0;bottom:0;left:0;position:absolute;overflow:hidden;}
 
+#home-1 {
+	position:fixed; 
+	width: 619px; 
+	height: 433px; 
+	margin-left: -960px;
+	margin-top: -540px;
+	background: url("imagens/home_01.png") no-repeat;
+	}
+
+#home-2 {
+	position:fixed; 
+	width: 1301px; 
+	height: 433px; 
+	margin-left:-341px;
+	margin-top: -540px;
+	background: url("imagens/home_02.jpg") no-repeat;
+	}
+
+#home-3 {
+	position:fixed; 
+	width: 387px; 
+	height: 767px; 
+	margin-left:-960px;
+	margin-top: -108px;
+	background: url("imagens/home_03.jpg") no-repeat;
+	}
+
+#home-4 {
+	position:fixed; 
+	width: 156px; 
+	height: 479px; 
+	margin-left:-573px;
+	margin-top: -108px;
+	background: url("imagens/home_04.png") no-repeat;
+	}
+
+#home-5 {
+	position:fixed; 
+	width: 686px; 
+	height: 767px; 
+	margin-left:-417px;
+	margin-top: -108px;
+	background: url("imagens/home_05.jpg") no-repeat;
+	}
+
+#home-6 {
+	position:fixed; 
+	width: 460px; 
+	height: 316px; 
+	margin-left:269px;
+	margin-top: -108px;
+	background: url("imagens/home_06.png") no-repeat;
+	}
+
+#home-7 {
+	position:fixed; 
+	width: 231px; 
+	height: 767px; 
+	margin-left:729px;
+	margin-top: -108px;
+	background: url("imagens/home_07.jpg") no-repeat;
+	}
+
+#home-8 {
+	position:fixed; 
+	width: 460px; 
+	height: 451px; 
+	margin-left:269px;
+	margin-top: 208px;
+	background: url("imagens/home_08.jpg") no-repeat;
+	}
+
+#home-9 {
+	position:fixed; 
+	width: 156px; 
+	height: 288px; 
+	margin-left: -573px;
+	margin-top: 371px;
+	background: url("imagens/home_09.jpg") no-repeat;
+	}
+
+#sapatos {
+	position:fixed; 
+	width: 759px; 
+	height: 389px; 
+    margin-left: -1018px;
+    margin-top: -458px;
+	background: url("imagens/sapatos.jpg") no-repeat;
 }
 
 
+#trapezio {
+	position:fixed; 
+	width: 423px; 
+	height: 617px; 
+    margin-left: -790px;
+    margin-top: 25px;
+	background: url("imagens/trapezio.jpg") no-repeat;
+}
 
+#tecido {
+	position:fixed; 
+	width: 482px; 
+	height: 338px; 
+    margin-left: 304px;
+    margin-top: -110px;
+	background: url("imagens/tecido.jpg") no-repeat;
+}
+
+#lampadas {
+	position:fixed; 
+	width: 1033px; 
+	height: 420px; 
+    margin-left: -6px;
+    margin-top: -27px;
+	background: url("imagens/lampadas.png") no-repeat;
+}

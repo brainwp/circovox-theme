@@ -22,12 +22,12 @@ require_once (get_stylesheet_directory() . '/includes/prateleira.php');
             </div><!-- #superior-prat -->
             
             <div id="conteudo-prat">
-			<a class="a-prat" href="<?php bloginfo( 'url' ); ?>/fotos-e-videos">
-            <img class="img-prat" src="<?php bloginfo( 'stylesheet_directory' ); ?>/imagens/palavras/fotos-e-videos.png"/>
+            <a class="a-prat" href="<?php bloginfo( 'url' ); ?>/clientes">
+            <img class="img-prat" src="<?php bloginfo( 'stylesheet_directory' ); ?>/imagens/palavras/clientes.png"/>
             </a>
             
-            <a class="a-prat" href="<?php bloginfo( 'url' ); ?>/projetos">
-            <img class="img-prat" src="<?php bloginfo( 'stylesheet_directory' ); ?>/imagens/palavras/projetos.png"/>
+             <a class="a-prat" href="<?php bloginfo( 'url' ); ?>/escola">
+            <img class="img-prat" src="<?php bloginfo( 'stylesheet_directory' ); ?>/imagens/palavras/escola.png"/>
             </a>
             
             <a class="a-prat" href="<?php bloginfo( 'url' ); ?>/espetaculos">
@@ -38,9 +38,22 @@ require_once (get_stylesheet_directory() . '/includes/prateleira.php');
             <img class="img-prat" src="<?php bloginfo( 'stylesheet_directory' ); ?>/imagens/palavras/eventos.png"/>
             </a>
             
-            <a class="a-prat" href="<?php bloginfo( 'url' ); ?>/clientes">
-            <img class="img-prat" src="<?php bloginfo( 'stylesheet_directory' ); ?>/imagens/palavras/clientes.png"/>
+			<a class="a-prat" href="<?php bloginfo( 'url' ); ?>/fotos-e-videos">
+            <img class="img-prat" src="<?php bloginfo( 'stylesheet_directory' ); ?>/imagens/palavras/fotos-e-videos.png"/>
             </a>
+            
+            <a class="a-prat" href="<?php bloginfo( 'url' ); ?>/parceiros">
+            <img class="img-prat" src="<?php bloginfo( 'stylesheet_directory' ); ?>/imagens/palavras/parceiros.png"/>
+            </a>
+            
+            <a class="a-prat" href="<?php bloginfo( 'url' ); ?>/patrocinadores">
+            <img class="img-prat" src="<?php bloginfo( 'stylesheet_directory' ); ?>/imagens/palavras/patrocinadores.png"/>
+            </a>
+            
+            <a class="a-prat" href="<?php bloginfo( 'url' ); ?>/projetos">
+            <img class="img-prat" src="<?php bloginfo( 'stylesheet_directory' ); ?>/imagens/palavras/projetos.png"/>
+            </a>
+ 
             </div><!-- #conteudo-prat -->
 			
 		<div id="hack-sidebar"></div>

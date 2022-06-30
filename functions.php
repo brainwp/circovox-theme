@@ -8,6 +8,7 @@ require_once (get_stylesheet_directory() . '/custom-espetaculos.php');
 require_once (get_stylesheet_directory() . '/custom-eventos.php');
 require_once (get_stylesheet_directory() . '/custom-agenda.php');
 
+
 //Exemplo de uso da Classe Custom Meta Boxes - Baixe a classe em: http://www.deluxeblogtips.com/2011/06/update-meta-box-script-v32-is-available.html
 
 $prefix = 'vox'; //prefixo
@@ -101,8 +102,34 @@ function excerpt($limit) {
       $excerpt = preg_replace('`\[[^\]]*\]`','',$excerpt);
       return nl2br($excerpt);
     }
-function custom_login() { 
-echo '<link rel="stylesheet" type="text/css" href="'.get_bloginfo('url').'/wp-content/themes/circovox-theme-v2/custom-login/custom-login.css" />'; 
-}
-add_action('login_head', 'custom_login');
+
+
+
+/* Muda o limite de download para 64M  */
+@ini_set( 'upload_max_size' , '128M' );
+@ini_set( 'post_max_size', '128M');
+@ini_set( 'max_execution_time', '300' );
 ?>
+
+<?php
+/**
+ * Register Widget Area.
+ *
+ */
+function wpgyan_widgets_init() {
+ 
+	register_sidebar( array(
+		'name' => 'Widget Agenda',
+		'id' => 'widget_agenda',
+		'before_widget' => '<div>',
+		'after_widget' => '</div>',
+		'before_title' => '<h2 class="rounded">',
+		'after_title' => '</h2>',
+	) );
+}
+add_action( 'widgets_init', 'wpgyan_widgets_init' );
+
+
+
+?>
+

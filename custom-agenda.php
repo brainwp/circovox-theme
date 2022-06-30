@@ -128,9 +128,7 @@ function my_meta_save($post_id)
 	{
 		add_post_meta($post_id,'_my_meta',$new_data,TRUE);
 	}
-	if(!empty($_POST['_my_meta']['ag_data'])){
-		update_post_meta($post_id,'ag_data',$_POST['_my_meta']['ag_data']);
-	}
+
 	return $post_id;
 }
 

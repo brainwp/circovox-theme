@@ -1,5 +1,5 @@
 <?php
- get_header( 'projetos' ); ?>
+ get_header(); ?>
 
 	<div id="center-pages">
 

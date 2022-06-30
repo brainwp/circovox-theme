@@ -15,6 +15,29 @@
 ?>
 </title><!-- #title -->
 
+<!-- Efeito jQuery Paralax -->
+<script type="text/javascript" src="<?php bloginfo( 'stylesheet_directory' ); ?>/includes/js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="<?php bloginfo( 'stylesheet_directory' ); ?>/includes/js/jquery.levitation.js"></script>
+
+<script>
+$(document).ready(function(){
+   	$('#home-1').levitation(50, 50, 0);
+	$('#home-2').levitation(50, 50, 0);
+	$('#home-3').levitation(50, 50, 0);
+	$('#home-4').levitation(50, 50, 0);
+	$('#home-5').levitation(50, 50, 0);
+	$('#home-6').levitation(50, 50, 0);
+	$('#home-7').levitation(50, 50, 0);
+	$('#home-8').levitation(50, 50, 0);
+	$('#home-9').levitation(50, 50, 0);
+	$('#sapatos').levitation(50, 50, -6);
+	$('#trapezio').levitation(50, 50, -1);
+	$('#tecido').levitation(50, 50, -1);
+	$('#lampadas').levitation(48, 0, 1);
+});        
+  </script>
+<!-- Efeito jQuery Paralax -->
+
 <!-- Google Fonts API -->
 <link href='http://fonts.googleapis.com/css?family=Sancreek' rel='stylesheet' type='text/css'>
 
@@ -34,10 +57,22 @@ echo (get_option('mo_ga_code'));
 ?>
 
 </head><!-- #head -->
-<body class="home-page">
+<body>
 
-<div id="lampadas-home">
-</div> <!-- #lampadas-home -->
+<div id="main-home">
+<div id="home-1"></div>
+<div id="home-2"></div>
+<div id="home-3"></div>
+<div id="home-4"></div>
+<div id="home-5"></div>
+<div id="home-6"></div>
+<div id="home-7"></div>
+<div id="home-8"></div>
+<div id="home-9"></div>
+<div id="sapatos"></div>
+<div id="trapezio"></div>	
+<div id="tecido"></div>
+<div id="lampadas"></div>
 
 <div id="segura">
 
