@@ -1,6 +1,12 @@
 <?php get_header('home'); ?>
 
 <div id="conteudo-home">
+  
+  <?php 
+
+	include_once(ABSPATH .'wp-admin/includes/plugin.php');
+
+	if ( is_plugin_active( 'smart-slider-3/smart-slider-3.php' ) ) {  ?>
 
 <div id="borda-slider">
 
@@ -12,7 +18,7 @@
 
 <div id="brd-slider">
 
-<?php if (function_exists('wp_content_slider')) { wp_content_slider(); } ?>
+<?php echo do_shortcode('[smartslider3 slider="2"]'); ?>
 
 </div>
 
@@ -24,6 +30,8 @@
 
 </div><!-- #borda-slider -->
 
+  <?php } ?>
+  
 </div><!-- #conteudo-home -->
 
 <?php get_footer('home'); ?>
