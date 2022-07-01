@@ -76,20 +76,6 @@ function no_update_nag() {
 	add_image_size( 'thumb-eventos', 280, 130, true );
 }
 
-
-/* Remove o Continue Reading no child theme do TwentyTen */
-class Transformation_Text_Wrangler {
-function reading_more($translation, $text, $domain) {
-$translations = &get_translations_for_domain( $domain );
-if ( $text == 'Continue reading <span class="meta-nav">&rarr;</span>' ) {
-return $translations->translate( '' );
-}
-return $translation;
-}
-}
-add_filter('gettext', array('Transformation_Text_Wrangler', 'reading_more'), 10, 4);
-
-
 /* Muda o limite do the_excerpt no child theme do TwentyTen. Use echo excerpt( 50 ); */
 function excerpt($limit) {
       $excerpt = explode(' ', get_the_excerpt(), $limit);
